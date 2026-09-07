@@ -1,0 +1,433 @@
+{
+  "generatedAt": "2026-09-06T15:31:44.314Z",
+  "count": 61,
+  "byTable": {
+    "the goonies never say die pinball": {
+      "table": "THE GOONIES NEVER SAY DIE PINBALL",
+      "competition": "Thursday Throwdown",
+      "period": "2/5/2026 - 2/12/2026",
+      "winner": "ED-209",
+      "date": "2026-02-05"
+    },
+    "buck rogers": {
+      "table": "BUCK ROGERS",
+      "competition": "Special When Lit",
+      "period": "2/8/2026 - 2/15/2026",
+      "winner": "TheEternalGremmie",
+      "date": "2026-02-08"
+    },
+    "space station": {
+      "table": "SPACE STATION",
+      "competition": "Thursday Throwdown",
+      "period": "2/12/2026 - 2/19/2026",
+      "winner": "lminimart",
+      "date": "2026-02-12"
+    },
+    "gridiron": {
+      "table": "GRIDIRON",
+      "competition": "Special When Lit",
+      "period": "2/08/2026 - 2/15/2026",
+      "winner": "FINMAN2000",
+      "date": "2026-02-15"
+    },
+    "spider-man (vault edition)": {
+      "table": "SPIDER-MAN (VAULT EDITION)",
+      "competition": "Thursday Throwdown",
+      "period": "2/12/2026 - 2/19/2026",
+      "winner": "Major Drain",
+      "date": "2026-02-19"
+    },
+    "hardbody": {
+      "table": "HARDBODY",
+      "competition": "Special When Lit",
+      "period": "2/15/2026 - 2/22/2026",
+      "winner": "Paladin",
+      "date": "2026-02-22"
+    },
+    "total nuclear annihilation": {
+      "table": "TOTAL NUCLEAR ANNIHILATION",
+      "competition": "Thursday Throwdown",
+      "period": "2/19/2026 - 2/26/2026",
+      "winner": "Ed209",
+      "date": "2026-02-26"
+    },
+    "playboy 35th anniversary": {
+      "table": "PLAYBOY 35TH ANNIVERSARY",
+      "competition": "Special When Lit",
+      "period": "2/22/2026 - 3/1/2026",
+      "winner": "Paladin",
+      "date": "2026-03-01"
+    },
+    "cyber race": {
+      "table": "CYBER RACE",
+      "competition": "Thursday Throwdown",
+      "period": "2/26/2026 - 3/5/2026",
+      "winner": "ED209",
+      "date": "2026-03-05"
+    },
+    "deadly weapon": {
+      "table": "DEADLY WEAPON",
+      "competition": "Special When Lit",
+      "period": "3/1/2026 - 3/8/2026",
+      "winner": "shelshlock",
+      "date": "2026-03-08"
+    },
+    "x-men wolverine le": {
+      "table": "X-MEN WOLVERINE LE",
+      "competition": "Thursday Throwdown",
+      "period": "3/5/2026 - 3/12/2026",
+      "winner": "Scottie_Doesnt",
+      "date": "2026-03-12"
+    },
+    "metallica (premium monsters)": {
+      "table": "METALLICA (PREMIUM MONSTERS)",
+      "competition": "Special When Lit",
+      "period": "3/8/2026 - 3/15/2026",
+      "winner": "Colvert",
+      "date": "2026-03-15"
+    },
+    "lost in space (sega 1998) drjones comic-book edition": {
+      "table": "Lost In Space (SEGA 1998) DrJones Comic-book Edition",
+      "competition": "Thursday Throwdown",
+      "period": "3/12/2026 - 3/19/2026",
+      "winner": "Joey Tribbiani",
+      "date": "2026-03-19"
+    },
+    "hook": {
+      "table": "HOOK",
+      "competition": "Special When Lit",
+      "period": "3/15/2026 - 3/22/2026",
+      "winner": "lminimart",
+      "date": "2026-03-22"
+    },
+    "the matrix": {
+      "table": "THE MATRIX",
+      "competition": "Thursday Throwdown",
+      "period": "3/19/2026 - 3/26/2026",
+      "winner": "Keanu Reeves",
+      "date": "2026-03-26"
+    },
+    "cactus canyon": {
+      "table": "CACTUS CANYON",
+      "competition": "Special When Lit",
+      "period": "3/22/2026 - 3/29/2026",
+      "winner": "ED-Holiday",
+      "date": "2026-03-29"
+    },
+    "star gazer": {
+      "table": "STAR GAZER",
+      "competition": "Thursday Throwdown",
+      "period": "3/26/2026 - 4/2/2026",
+      "winner": "lminimart",
+      "date": "2026-04-02"
+    },
+    "judge dredd": {
+      "table": "JUDGE DREDD",
+      "competition": "Special When Lit",
+      "period": "3/29/2026 - 4/5/2026",
+      "winner": "Dredd-209",
+      "date": "2026-04-05"
+    },
+    "shovel knight": {
+      "table": "SHOVEL KNIGHT",
+      "competition": "Thursday Throwdown",
+      "period": "4/2/2026 - 4/9/2026",
+      "winner": "LexOnTilt",
+      "date": "2026-04-09"
+    },
+    "doctor who": {
+      "table": "DOCTOR WHO",
+      "competition": "Special When Lit",
+      "period": "4/5/2026 - 4/12/2026",
+      "winner": "lminimart",
+      "date": "2026-04-12"
+    },
+    "time machine": {
+      "table": "TIME MACHINE",
+      "competition": "Thursday Throwdown",
+      "period": "4/9/2026 - 4/16/2026",
+      "winner": "Lroy",
+      "date": "2026-04-16"
+    },
+    "volley": {
+      "table": "VOLLEY",
+      "competition": "Special When Lit",
+      "period": "4/12/2026 - 4/19/2026",
+      "winner": "Briguy3133",
+      "date": "2026-04-19"
+    },
+    "barracora": {
+      "table": "BARRACORA",
+      "competition": "Thursday Throwdown",
+      "period": "4/16/2026 - 4/23/2026",
+      "winner": "Ed209",
+      "date": "2026-04-23"
+    },
+    "batman": {
+      "table": "BATMAN",
+      "competition": "Special When Lit",
+      "period": "4/19/2026 - 4/26/2026",
+      "winner": "Im Batman-209",
+      "date": "2026-04-26"
+    },
+    "austin powers": {
+      "table": "AUSTIN POWERS",
+      "competition": "Thursday Throwdown",
+      "period": "4/23/2026 - 4/30/2026",
+      "winner": "lminimart",
+      "date": "2026-04-30"
+    },
+    "tales from the crypt": {
+      "table": "Tales from the Crypt",
+      "competition": "Special When Lit",
+      "period": "4/26/2026 - 5/3/2026",
+      "winner": "Nodrac",
+      "date": "2026-05-03"
+    },
+    "hurricane": {
+      "table": "Hurricane",
+      "competition": "Thursday Throwdown",
+      "period": "4/30/2026 - 5/7/2026",
+      "winner": "Ed209",
+      "date": "2026-05-07"
+    },
+    "star wars - bounty hunter": {
+      "table": "Star Wars - Bounty Hunter",
+      "competition": "Special When Lit",
+      "period": "5/3/2026 - 5/10/2026",
+      "winner": "lminimart",
+      "date": "2026-05-10"
+    },
+    "pharaoh": {
+      "table": "Pharaoh",
+      "competition": "Thursday Throwdown",
+      "period": "5/7/2026 - 5/14/2026",
+      "winner": "Autobott",
+      "date": "2026-05-14"
+    },
+    "big bang bar": {
+      "table": "Big Bang Bar",
+      "competition": "Special When Lit",
+      "period": "5/10/2026 - 5/17/2026",
+      "winner": "Ed209",
+      "date": "2026-05-17"
+    },
+    "pirates of the caribbean": {
+      "table": "Pirates of the Caribbean",
+      "competition": "Thursday Throwdown",
+      "period": "5/14/2026 - 5/21/2026",
+      "winner": "Autobott",
+      "date": "2026-05-21"
+    },
+    "big trouble in little china": {
+      "table": "Big Trouble in Little China ",
+      "competition": "Special When Lit",
+      "period": "5/17/2026 - 5/24/2026",
+      "winner": "Lo Pan 209",
+      "date": "2026-05-24"
+    },
+    "defender": {
+      "table": "Defender",
+      "competition": "Thursday Throwdown",
+      "period": "5/21/2026 - 5/28/2026",
+      "winner": "Edw09",
+      "date": "2026-05-28"
+    },
+    "godzilla": {
+      "table": "Godzilla",
+      "competition": "Special When Lit",
+      "period": "5/24/2026 - 5/31/2026",
+      "winner": "Ed209",
+      "date": "2026-05-31"
+    },
+    "nba fastbreak": {
+      "table": "NBA Fastbreak",
+      "competition": "Thursday Throwdown",
+      "period": "5/28/2026 - 6/4/2026",
+      "winner": "Ed209",
+      "date": "2026-06-04"
+    },
+    "flash gordon": {
+      "table": "Flash Gordon",
+      "competition": "Special When Lit",
+      "period": "5/31/2026 - 6/7/2026",
+      "winner": "Autobott",
+      "date": "2026-06-07"
+    },
+    "special force": {
+      "table": "SPECIAL FORCE",
+      "competition": "Thursday Throwdown",
+      "period": "6/04/2026 - 6/11/2026",
+      "winner": "Autobott",
+      "date": "2026-06-11"
+    },
+    "star trek - the next generation": {
+      "table": "STAR TREK - THE NEXT GENERATION",
+      "competition": "Special When Lit",
+      "period": "6/7/2026 - 6/14/2026",
+      "winner": "UltraMagnus79",
+      "date": "2026-06-14"
+    },
+    "atlantis": {
+      "table": "ATLANTIS",
+      "competition": "Thursday Throwdown",
+      "period": "6/11/2026 - 6/18/2026",
+      "winner": "Autobott",
+      "date": "2026-06-18"
+    },
+    "cactus jack's": {
+      "table": "CACTUS JACK'S",
+      "competition": "Special When Lit",
+      "period": "6/14/2026 - 6/21/2026",
+      "winner": "Wileywade",
+      "date": "2026-06-21"
+    },
+    "world poker tour": {
+      "table": "WORLD POKER TOUR",
+      "competition": "Thursday Throwdown",
+      "period": "6/18/2026 - 6/25/2026",
+      "winner": "shelshlock",
+      "date": "2026-06-25"
+    },
+    "earth wind fire": {
+      "table": "EARTH WIND FIRE",
+      "competition": "Special When Lit",
+      "period": "6/21/2026 - 6/28/2026",
+      "winner": "Tuttiweb1",
+      "date": "2026-06-28"
+    },
+    "gold ball": {
+      "table": "GOLD BALL",
+      "competition": "Thursday Throwdown",
+      "period": "6/25/2026 - 7/2/2026",
+      "winner": "Iminimart",
+      "date": "2026-07-02"
+    },
+    "world cup soccer": {
+      "table": "WORLD CUP SOCCER",
+      "competition": "Special When Lit",
+      "period": "6/28/2026 - 7/5/2026",
+      "winner": "Pel209",
+      "date": "2026-07-05"
+    },
+    "gilligan's island": {
+      "table": "GILLIGAN'S ISLAND",
+      "competition": "Thursday Throwdown",
+      "period": "7/2/2026 - 7/9/2026",
+      "winner": "LittleBuddy209",
+      "date": "2026-07-09"
+    },
+    "tales of the arabian nights": {
+      "table": "TALES OF THE ARABIAN NIGHTS",
+      "competition": "Special When Lit",
+      "period": "7/5/2026 - 7/12/2026",
+      "winner": "Manor Drain",
+      "date": "2026-07-12"
+    },
+    "rollergames": {
+      "table": "ROLLERGAMES",
+      "competition": "Thursday Throwdown",
+      "period": "7/9/2026 - 7/16/2026",
+      "winner": "Autobott",
+      "date": "2026-07-16"
+    },
+    "strikes and spares": {
+      "table": "STRIKES AND SPARES",
+      "competition": "Special When Lit",
+      "period": "7/12/2026 - 7/19/2026",
+      "winner": "Autobott",
+      "date": "2026-07-19"
+    },
+    "solar fire": {
+      "table": "SOLAR FIRE",
+      "competition": "Thursday Throwdown",
+      "period": "7/16/2026 - 7/23/2026",
+      "winner": "shelshlock",
+      "date": "2026-07-23"
+    },
+    "white water": {
+      "table": "WHITE WATER",
+      "competition": "Special When Lit",
+      "period": "7/19/2026 - 7/26/2026",
+      "winner": "Major drain",
+      "date": "2026-07-26"
+    },
+    "ice fever": {
+      "table": "ICE FEVER",
+      "competition": "Thursday Throwdown",
+      "period": "7/23/2026 - 7/30/2026",
+      "winner": "shelshlock",
+      "date": "2026-07-30"
+    },
+    "ac/dc (luci premium)": {
+      "table": "AC/DC (LUCI Premium)",
+      "competition": "Special When Lit",
+      "period": "7/26/2026 - 8/2/2026",
+      "winner": "Paladin",
+      "date": "2026-08-02"
+    },
+    "cybernaut": {
+      "table": "CYBERNAUT",
+      "competition": "Thursday Throwdown",
+      "period": "7/30/2026 - 8/6/2026",
+      "winner": "lminimart",
+      "date": "2026-08-06"
+    },
+    "sorcerer": {
+      "table": "Sorcerer",
+      "competition": "Special When Lit",
+      "period": "8/2/2026 - 8/9/2026",
+      "winner": "Major Drain",
+      "date": "2026-08-09"
+    },
+    "no fear - dangerous sports": {
+      "table": "No Fear - Dangerous Sports",
+      "competition": "Thursday Throwdown",
+      "period": "8/6/2026 - 8/13/2026",
+      "winner": "Major Drain",
+      "date": "2026-08-13"
+    },
+    "four million b.c.": {
+      "table": "Four Million B.C.",
+      "competition": "Special When Lit",
+      "period": "8/9/2026 - 8/16/2026",
+      "winner": "lminimart",
+      "date": "2026-08-16"
+    },
+    "andromeda": {
+      "table": "Andromeda",
+      "competition": "Thursday Throwdown",
+      "period": "8/13/2026 - 8/20/2026",
+      "winner": "Autobott",
+      "date": "2026-08-20"
+    },
+    "last action hero": {
+      "table": "Last Action Hero",
+      "competition": "Special When Lit",
+      "period": "8/16/2026 - 8/23/2026",
+      "winner": "lminimart",
+      "date": "2026-08-23"
+    },
+    "torpedo alley": {
+      "table": "Torpedo Alley",
+      "competition": "Thursday Throwdown",
+      "period": "8/20/2026 - 8/27/2026",
+      "winner": "Autobott",
+      "date": "2026-08-27"
+    },
+    "seawitch": {
+      "table": "Seawitch",
+      "competition": "Special When Lit",
+      "period": "8/23/2026 - 8/30/2026",
+      "winner": "Autobott",
+      "date": "2026-08-30"
+    },
+    "blood machines": {
+      "table": "Blood Machines",
+      "competition": "Thursday Throwdown",
+      "period": "8/27/2026 - 9/3/2026",
+      "winner": "ED209",
+      "date": "2026-09-03"
+    }
+  }
+}
