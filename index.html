@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VPINHUB Competition Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+        --accent: #22d3ee;
+        --accent-dark: #0e7490;
+        --black: #000000;
+        --dark-gray: #1a1a1a;
+        --medium-gray: #2a2a2a;
+        --light-gray: #3a3a3a;
+        --text-gray: #cccccc;
+    }
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: var(--black);
+        color: var(--text-gray);
+        line-height: 1.6;
+        min-height: 100vh;
+    }
+    h1, h2, h3 { font-family: 'Rajdhani', sans-serif; font-weight: 700; color: #fff; }
+    .navbar {
+        background: linear-gradient(180deg, var(--dark-gray) 0%, var(--black) 100%);
+        padding: 1rem 2rem;
+        border-bottom: 2px solid var(--accent);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar .logo { font-size: 1.4em; font-weight: 700; color: var(--accent); text-decoration: none; }
+    .navbar .logo span { color: #fff; }
+    .navbar .sub { font-size: 0.85em; opacity: 0.6; }
+    .container { max-width: 980px; margin: 0 auto; padding: 2rem; }
+    .card {
+        background: var(--dark-gray);
+        border: 2px solid var(--light-gray);
+        border-radius: 12px;
+        padding: 1.75rem;
+        margin-bottom: 2rem;
+    }
+    .card-title {
+        font-size: 1.4em;
+        color: var(--accent);
+        margin-bottom: 1.25rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid var(--light-gray);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    /* Series toggle */
+    .series-toggle { display: flex; gap: 0.5rem; }
+    .series-btn {
+        flex: 1;
+        padding: 0.9rem 1rem;
+        text-align: center;
+        background: var(--medium-gray);
+        border: 2px solid var(--light-gray);
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--text-gray);
+        transition: all 0.15s;
+    }
+    .series-btn.active { border-color: var(--accent); color: #fff; background: rgba(34,211,238,0.12); }
+    .series-btn small { display: block; font-weight: 400; opacity: 0.65; font-size: 0.78em; margin-top: 0.2rem; }
+
+    .row { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
+    input[type=text], input[type=date], input[type=search], textarea, select {
+        background: var(--medium-gray);
+        border: 2px solid var(--light-gray);
+        border-radius: 6px;
+        color: #fff;
+        padding: 0.6rem 0.8rem;
+        font-family: inherit;
+        font-size: 0.95em;
+        outline: none;
+    }
+    input[type=text]:focus, input[type=date]:focus, input[type=search]:focus, textarea:focus, select:focus { border-color: var(--accent); }
+    label { font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.06em; opacity: 0.6; display: block; margin-bottom: 0.3rem; }
+    .field { display: flex; flex-direction: column; gap: 0.2rem; }
+    .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.6rem 1.2rem;
+        background: var(--accent);
+        color: #000;
+        border: 2px solid var(--accent);
+        border-radius: 6px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9em;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+        white-space: nowrap;
+    }
+    .btn:hover { background: transparent; color: var(--accent); }
+    .btn.secondary { background: transparent; color: var(--accent); }
+    .btn.secondary:hover { background: var(--accent); color: #000; }
+    .btn.success { background: #22c55e; border-color: #22c55e; color: #fff; }
+    .copy-hint { font-size: 0.82em; opacity: 0.55; }
+
+    #searchResults {
+        max-height: 260px;
+        overflow-y: auto;
+        border: 1px solid var(--light-gray);
+        border-radius: 8px;
+        margin-top: 0.75rem;
+        display: none;
+    }
+    #searchResults.open { display: block; }
+    .result-row {
+        padding: 0.55rem 0.9rem;
+        cursor: pointer;
+        border-bottom: 1px solid var(--medium-gray);
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .result-row:hover { background: var(--medium-gray); }
+    .result-row .rname { color: #fff; font-weight: 600; }
+    .result-row .rmeta { opacity: 0.55; font-size: 0.85em; white-space: nowrap; }
+
+    .selected-table { display: flex; gap: 1.25rem; margin-top: 1rem; align-items: flex-start; }
+    .selected-table img { width: 140px; height: auto; border-radius: 8px; border: 1px solid var(--light-gray); background: #000; }
+    .selected-table .meta { flex: 1; min-width: 0; }
+    .selected-table h2 { font-size: 1.3em; }
+    .tag { display: inline-block; background: var(--medium-gray); border: 1px solid var(--light-gray); border-radius: 999px; padding: 0.15rem 0.7rem; font-size: 0.78em; margin: 0.15rem 0.3rem 0 0; }
+    .tag.match { border-color: var(--accent); color: var(--accent); }
+    .empty-state { opacity: 0.5; font-style: italic; padding: 1rem 0; }
+
+    .tutorial-list { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.5rem; }
+    .tutorial-list label { display: flex; align-items: center; gap: 0.5rem; text-transform: none; letter-spacing: 0; font-size: 0.9em; opacity: 0.9; }
+    .tutorial-list input[type=checkbox] { width: 16px; height: 16px; }
+
+    .msg-area {
+        width: 100%;
+        min-height: 480px;
+        background: var(--medium-gray);
+        border: 2px solid var(--light-gray);
+        border-radius: 8px;
+        padding: 1rem;
+        color: var(--text-gray);
+        font-family: 'Courier New', monospace;
+        font-size: 0.86em;
+        line-height: 1.7;
+        resize: vertical;
+    }
+    .out-row { display: flex; gap: 0.6rem; margin-bottom: 1rem; }
+    .out-row input { flex: 1; font-family: 'Courier New', monospace; font-size: 0.85em; }
+    .btn-row { display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; align-items: center; }
+    .checkbox-row { display: flex; align-items: center; gap: 0.4rem; font-size: 0.9em; }
+    .checkbox-row input { width: 16px; height: 16px; }
+    footer { text-align: center; opacity: 0.4; font-size: 0.8em; padding: 1rem 0 2rem; }
+    @media (max-width: 600px) {
+        .container { padding: 1rem; }
+        .selected-table { flex-direction: column; }
+        .selected-table img { width: 100%; max-width: 220px; }
+    }
+</style>
+</head>
+<body>
+<nav class="navbar">
+    <a href="#" class="logo">VPINHUB <span>Competition Admin</span></a>
+    <span class="sub">Special When Lit &amp; Thursday Throwdown — tournament builder</span>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <div class="card-title">🎯 Series</div>
+        <div class="series-toggle">
+            <div class="series-btn active" data-series="swl" id="btnSwl">
+                Special When Lit
+                <small>Deadline: Sunday, 2:00 PM ET</small>
+            </div>
+            <div class="series-btn" data-series="ttd" id="btnTtd">
+                Thursday Throwdown
+                <small>Deadline: Thursday, 2:00 PM ET</small>
+            </div>
+            <div class="series-btn" data-series="custom" id="btnCustom">
+                Custom Tournament
+                <small>Name it yourself</small>
+            </div>
+        </div>
+        <div class="field" id="customNameField" style="display:none; margin-top:1rem;">
+            <label for="customTournamentName">Tournament Name</label>
+            <input type="text" id="customTournamentName" placeholder="e.g. VPW Cup, Friday Night Fights" style="width:100%">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-title">🎰 Pick a Table
+            <button class="btn secondary" id="randomBtn">🎲 Random from pool</button>
+        </div>
+        <p style="font-size:0.85em; opacity:0.65; margin-bottom:0.75rem;" id="poolStatus">Loading pool…</p>
+
+        <div class="field">
+            <label for="searchInput">Search the full VPS database (name, manufacturer, or author)</label>
+            <input type="search" id="searchInput" placeholder="e.g. Medieval Madness, Stern, HauntFreaks…" style="width:100%">
+        </div>
+        <div id="searchResults"></div>
+
+        <div id="selectedTableBlock" class="empty-state">No table selected yet — search above or hit Random.</div>
+    </div>
+
+    <div class="card" id="detailsCard" style="display:none">
+        <div class="card-title">🗓️ Tournament Details</div>
+        <div class="grid2">
+            <div class="field">
+                <label for="deadlineDate">Deadline date (end of event)</label>
+                <input type="date" id="deadlineDate">
+            </div>
+            <div class="field">
+                <label>Computed event period</label>
+                <div class="info-value" id="periodPreview" style="color:#fff; font-weight:600; padding-top:0.4rem;">—</div>
+            </div>
+            <div class="field" id="romField" style="display:none">
+                <label for="romSelect">ROM required</label>
+                <select id="romSelect"></select>
+            </div>
+            <div class="field">
+                <label for="headerEmoji">Header emoji pair</label>
+                <input type="text" id="headerEmoji" value=":rotating_light: / :trophy:" style="width:100%">
+            </div>
+        </div>
+
+        <div class="field" style="margin-top:1rem" id="tutorialsField">
+            <label>Tutorials to include</label>
+            <div class="tutorial-list" id="tutorialsList"></div>
+        </div>
+
+        <div class="field" style="margin-top:1rem">
+            <label for="customNote">Optional important note (e.g. required ROM patch, mod version)</label>
+            <textarea id="customNote" style="width:100%; min-height:70px"></textarea>
+        </div>
+
+        <div class="field" style="margin-top:1rem">
+            <label for="closingQuote">Closing quote</label>
+            <input type="text" id="closingQuote" value="Game on!" style="width:100%">
+        </div>
+
+        <div class="row" style="margin-top:1rem">
+            <div class="checkbox-row"><input type="checkbox" id="hideFlag"><label for="hideFlag" style="text-transform:none; opacity:1; font-size:1em;">Hide non-essential files (&amp;hide)</label></div>
+            <div class="checkbox-row"><input type="checkbox" id="qrcodeFlag"><label for="qrcodeFlag" style="text-transform:none; opacity:1; font-size:1em;">Add QR code (&amp;qrcode)</label></div>
+        </div>
+    </div>
+
+    <div class="card" id="outputCard" style="display:none">
+        <div class="card-title">📋 Generated Output</div>
+
+        <div class="field">
+            <label>iScored / VPin Studio Tag</label>
+            <div class="out-row">
+                <input type="text" id="outIscored" readonly>
+                <button class="btn secondary" onclick="copyField('outIscored', this)">Copy</button>
+            </div>
+        </div>
+
+        <div class="field">
+            <label>Tournament Helper URL</label>
+            <div class="out-row">
+                <input type="text" id="outHelperUrl" readonly>
+                <button class="btn secondary" onclick="copyField('outHelperUrl', this)">Copy</button>
+                <button class="btn secondary" onclick="window.open(document.getElementById('outHelperUrl').value,'_blank')">Open</button>
+                <button class="btn secondary" id="overrideBtn">⚙ Override Options <span style="opacity:0.7; font-weight:400;">(optional)</span></button>
+            </div>
+            <div style="font-size:0.8em; opacity:0.5;" id="overrideUnavailableNote">Not available for Custom Tournament — override.json only has slots for Special When Lit / Thursday Throwdown.</div>
+        </div>
+
+        <div id="overridePanel" style="display:none; margin:0.5rem 0 1.5rem; padding:1rem; border:1px solid var(--light-gray); border-radius:8px; background:var(--medium-gray);">
+            <div class="checkbox-row" style="margin-bottom:0.75rem;">
+                <input type="checkbox" id="ovEnabled">
+                <label for="ovEnabled" style="text-transform:none; opacity:1; font-size:1em;">Enable override for this series <span style="opacity:0.6;">(unchecked = null in the JSON — this series keeps running its normal auto-generated info)</span></label>
+            </div>
+            <p style="font-size:0.8em; opacity:0.6; margin-bottom:0.75rem;">
+                For competitioncentral's <code>override.json</code> — use when the VPS-listed ROM isn't enough (a required community patch) or when the table name/manufacturer/image need a manual fix for that page.
+            </p>
+            <div class="grid2">
+                <div class="field">
+                    <label for="ovRomUrl">Custom ROM URL</label>
+                    <input type="text" id="ovRomUrl" placeholder="https://...">
+                </div>
+                <div class="field">
+                    <label for="ovRomAuthor">Custom ROM Author</label>
+                    <input type="text" id="ovRomAuthor" placeholder="e.g. CarnyPriest">
+                </div>
+                <div class="field">
+                    <label for="ovTableName">Override Table Name</label>
+                    <input type="text" id="ovTableName" placeholder="leave blank to keep VPS name">
+                </div>
+                <div class="field">
+                    <label for="ovManufacturer">Override Manufacturer</label>
+                    <input type="text" id="ovManufacturer" placeholder="leave blank to keep VPS value">
+                </div>
+                <div class="field">
+                    <label for="ovImgUrl">Override Preview Image URL</label>
+                    <input type="text" id="ovImgUrl" placeholder="https://...">
+                </div>
+            </div>
+            <div class="field" style="margin-top:1rem">
+                <label for="ovRomNote">ROM Note <span style="opacity:0.5; text-transform:none;">(attached to the custom ROM card)</span></label>
+                <textarea id="ovRomNote" style="width:100%; min-height:50px"></textarea>
+            </div>
+            <div class="field" style="margin-top:1rem">
+                <label for="ovNote">CompetitionCentral Note</label>
+                <textarea id="ovNote" style="width:100%; min-height:50px"></textarea>
+            </div>
+            <div class="btn-row" style="margin-top:0.5rem;">
+                <button class="btn secondary" id="clearOverrideBtn">✕ Clear this series' override</button>
+            </div>
+        </div>
+
+        <div class="field" id="overrideJsonField" style="display:none">
+            <label>override.json <span style="opacity:0.5; text-transform:none;">(optional — paste over vpinhub/competitioncentral's override.json)</span></label>
+            <div class="out-row">
+                <textarea id="overrideJsonOut" readonly style="flex:1; min-height:160px; font-family:'Courier New', monospace; font-size:0.85em;"></textarea>
+            </div>
+            <div class="btn-row">
+                <button class="btn secondary" id="copyOverrideBtn">📋 Copy override.json</button>
+            </div>
+        </div>
+
+        <div id="qrCodeBox" style="display:none; margin-top:0.5rem; margin-bottom:1.5rem;">
+            <label>QR Code</label>
+            <div style="display:flex; align-items:center; gap:1rem; flex-wrap:wrap;">
+                <div id="qrCanvasHolder" style="background:#fff; padding:8px; border-radius:6px; line-height:0;"></div>
+                <button class="btn secondary" id="downloadQrBtn">⬇ Download PNG</button>
+            </div>
+        </div>
+
+        <div class="field">
+            <label>Chat Bot Message <span style="opacity:0.5; text-transform:none;">(short-form, for stream/chat bots — editable)</span></label>
+            <textarea class="msg-area" id="chatMsg" style="min-height:90px" spellcheck="false"></textarea>
+        </div>
+        <div class="btn-row" style="margin-bottom:1.5rem;">
+            <button class="btn secondary" id="copyChatBtn">📋 Copy Chat Message</button>
+        </div>
+
+        <div class="field">
+            <label>Discord Message <span style="opacity:0.5; text-transform:none;">(editable — tweak the intro/quote before posting)</span></label>
+            <textarea class="msg-area" id="discordMsg" spellcheck="false"></textarea>
+        </div>
+        <div class="btn-row">
+            <button class="btn" id="copyMsgBtn">📋 Copy Message</button>
+            <button class="btn secondary" id="regenBtn">↻ Regenerate from template</button>
+            <span class="copy-hint" id="copyHint"></span>
+        </div>
+    </div>
+
+</div>
+
+<footer>Table data from the Virtual Pinball Spreadsheet (VPS) database · History from VPINHUB CompetitionCentral</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+let allTables = [];
+let history = {};
+let selected = null;
+let series = 'swl';
+let overridePanelOpen = false;
+
+const el = (id) => document.getElementById(id);
+
+async function loadPool() {
+    try {
+        const [poolRes, historyRes] = await Promise.all([
+            fetch('data/pool.json' + '?v=' + Date.now()),
+            fetch('data/history.json' + '?v=' + Date.now()),
+        ]);
+        const data = await poolRes.json();
+        allTables = data.tables || [];
+        try {
+            const h = await historyRes.json();
+            history = h.byTable || {};
+        } catch (e) { history = {}; }
+        const poolCount = allTables.filter(t => t.inPool).length;
+        el('poolStatus').textContent = `${allTables.length} tables in the VPS database — ${poolCount} eligible for Random (nFozzy + VPW-family releases). Search reaches every table.`;
+    } catch (e) {
+        el('poolStatus').innerHTML = '<span style="color:#ef4444">Could not load data/pool.json — serve this folder with a local web server (fetch() cannot read local files directly).</span>';
+    }
+}
+
+document.querySelectorAll('.series-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.series-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        series = btn.dataset.series;
+        el('customNameField').style.display = series === 'custom' ? '' : 'none';
+        el('headerEmoji').value = series === 'swl' ? ':rotating_light: / :trophy:' : series === 'ttd' ? ':joystick: / :trophy:' : ':video_game: / :trophy:';
+        updateOverrideVisibility();
+        renderAll();
+    });
+});
+
+el('overrideBtn').addEventListener('click', () => {
+    overridePanelOpen = !overridePanelOpen;
+    updateOverrideVisibility();
+    refreshOverrideJson();
+});
+
+el('clearOverrideBtn').addEventListener('click', () => {
+    el('ovEnabled').checked = false;
+    ['ovRomUrl', 'ovRomAuthor', 'ovRomNote', 'ovTableName', 'ovManufacturer', 'ovImgUrl', 'ovNote'].forEach(id => { el(id).value = ''; });
+    refreshOverrideJson();
+});
+
+['ovEnabled', 'ovRomUrl', 'ovRomAuthor', 'ovRomNote', 'ovTableName', 'ovManufacturer', 'ovImgUrl', 'ovNote'].forEach(id => {
+    el(id).addEventListener('input', refreshOverrideJson);
+    el(id).addEventListener('change', refreshOverrideJson);
+});
+
+el('copyOverrideBtn').addEventListener('click', () => copyTextarea('overrideJsonOut', el('copyOverrideBtn')));
+
+el('randomBtn').addEventListener('click', () => {
+    const eligible = allTables.filter(t => t.inPool);
+    if (!eligible.length) return;
+    const table = eligible[Math.floor(Math.random() * eligible.length)];
+    selectTable(table);
+});
+
+el('searchInput').addEventListener('input', () => {
+    const q = el('searchInput').value.trim().toLowerCase();
+    const box = el('searchResults');
+    if (!q) { box.classList.remove('open'); box.innerHTML = ''; return; }
+    const matches = allTables.filter(t =>
+        t.name.toLowerCase().includes(q) ||
+        (t.manufacturer || '').toLowerCase().includes(q) ||
+        (t.authors || []).some(a => a.toLowerCase().includes(q))
+    ).slice(0, 30);
+    box.innerHTML = matches.length
+        ? matches.map(t => `<div class="result-row" data-id="${t.tableId}">
+            <span class="rname">${t.inPool ? '⭐ ' : ''}${escapeHtml(t.name)}</span>
+            <span class="rmeta">${escapeHtml(t.manufacturer || '')} ${t.year || ''}</span>
+        </div>`).join('')
+        : '<div class="result-row" style="opacity:0.5">No matches</div>';
+    box.classList.add('open');
+    box.querySelectorAll('.result-row[data-id]').forEach(row => {
+        row.addEventListener('click', () => {
+            const table = allTables.find(t => t.tableId === row.dataset.id);
+            if (table) selectTable(table);
+            box.classList.remove('open');
+            el('searchInput').value = table.name;
+        });
+    });
+});
+
+function selectTable(table) {
+    selected = table;
+    el('detailsCard').style.display = '';
+    el('outputCard').style.display = '';
+    renderSelectedBlock();
+    populateRomOptions();
+    populateTutorials();
+    setDefaultDeadline();
+    el('closingQuote').value = 'Game on!';
+    el('customNote').value = '';
+    updateOverrideVisibility();
+    renderAll();
+}
+
+function getHistoryFor(table) {
+    return history[table.name.trim().toLowerCase()] || null;
+}
+
+function renderSelectedBlock() {
+    const t = selected;
+    const themeTags = (t.theme || []).map(x => `<span class="tag">${escapeHtml(x)}</span>`).join('');
+    const authorTags = (t.authors || []).map(a => {
+        const isMatch = (t.matchedAuthors || []).includes(a);
+        return `<span class="tag${isMatch ? ' match' : ''}">${escapeHtml(a)}</span>`;
+    }).join('');
+    const poolBadge = t.inPool ? '<span class="tag match">⭐ In auto-pick pool</span>' : '';
+    const hist = getHistoryFor(t);
+    const historyLine = hist
+        ? `<div style="margin-top:0.6rem; font-size:0.85em; opacity:0.85;">🕓 Last played: <strong>${escapeHtml(hist.competition)}</strong> (${escapeHtml(hist.period || '')}) — Winner: <strong>${escapeHtml(hist.winner || 'unknown')}</strong></div>`
+        : '<div style="margin-top:0.6rem; font-size:0.85em; opacity:0.5;">🕓 Not previously run in Special When Lit or Thursday Throwdown.</div>';
+    el('selectedTableBlock').className = '';
+    el('selectedTableBlock').innerHTML = `
+        <div class="selected-table">
+            <img src="${t.b2sImageUrl || t.tableImageUrl || ''}" alt="${escapeHtml(t.name)} backglass" onerror="this.style.display='none'">
+            <div class="meta">
+                <h2>${escapeHtml(t.name)}</h2>
+                <div style="opacity:0.7; margin-bottom:0.5rem;">${escapeHtml(t.manufacturer || 'Unknown')} · ${t.year || '—'} · ${escapeHtml(t.type || '')}</div>
+                <div>${themeTags} ${poolBadge}</div>
+                <div style="margin-top:0.4rem;">${authorTags}</div>
+                ${historyLine}
+            </div>
+        </div>`;
+}
+
+function populateRomOptions() {
+    const t = selected;
+    const field = el('romField');
+    const sel = el('romSelect');
+    if (!t.romOptions || !t.romOptions.length) {
+        field.style.display = 'none';
+        sel.innerHTML = '';
+        return;
+    }
+    field.style.display = '';
+    sel.innerHTML = t.romOptions.map(r => `<option value="${escapeHtml(r.romId)}">${escapeHtml(r.romId)}${r.author ? ' — ' + escapeHtml(r.author) : ''}</option>`).join('')
+        + '<option value="">No ROM required for this tournament</option>';
+    sel.value = t.romId || '';
+}
+
+function populateTutorials() {
+    const t = selected;
+    const list = el('tutorialsList');
+    if (!t.tutorials || !t.tutorials.length) {
+        el('tutorialsField').style.display = 'none';
+        list.innerHTML = '';
+        return;
+    }
+    el('tutorialsField').style.display = '';
+    list.innerHTML = t.tutorials.map((tut, i) => `
+        <label><input type="checkbox" class="tutCheck" data-i="${i}" checked>${escapeHtml(tut.title)}</label>
+    `).join('');
+}
+
+function setDefaultDeadline() {
+    // Always assume the new tournament runs a full week from today,
+    // regardless of which weekday the tool happens to be used on.
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const deadline = new Date(today);
+    deadline.setDate(today.getDate() + 7);
+    el('deadlineDate').value = toDateInputValue(deadline);
+}
+
+function toDateInputValue(d) {
+    const y = d.getFullYear(), m = String(d.getMonth() + 1).padStart(2, '0'), day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+}
+
+function formatLongDate(d) {
+    return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+}
+
+function getDeadlineDate() {
+    const v = el('deadlineDate').value;
+    if (!v) return new Date();
+    const [y, m, d] = v.split('-').map(Number);
+    return new Date(y, m - 1, d);
+}
+
+function weekdayName(d) {
+    return d.toLocaleDateString('en-US', { weekday: 'long' });
+}
+
+function encodeParam(text) {
+    return encodeURIComponent(String(text).trim().replace(/\s+/g, '_'));
+}
+
+function getCheckedTutorials() {
+    if (!selected || !selected.tutorials) return [];
+    const boxes = document.querySelectorAll('.tutCheck');
+    return selected.tutorials.filter((_, i) => {
+        const box = [...boxes].find(b => Number(b.dataset.i) === i);
+        return box ? box.checked : true;
+    });
+}
+
+function buildHelperUrl() {
+    const t = selected;
+    let url = t.tournamentHelperUrl;
+    if (series === 'swl' || series === 'ttd') url += '&' + series;
+    const romSel = el('romField').style.display !== 'none' ? el('romSelect').value : (t.romId || '');
+    if (el('customNote').value.trim()) {
+        url += '&tnotes=' + encodeParam(el('customNote').value);
+    }
+    if (el('hideFlag').checked) url += '&hide';
+    if (el('qrcodeFlag').checked) url += '&qrcode';
+    return url;
+}
+
+function getCreditAuthors(t, joiner) {
+    const names = (t.matchedAuthors && t.matchedAuthors.length) ? t.matchedAuthors : (t.authors || []).slice(0, 3);
+    return names.join(joiner) || 'the community';
+}
+
+function buildChatMessage(t) {
+    const mfgYear = t.manufacturer ? ` (${t.manufacturer}${t.year ? ' ' + t.year : ''})` : '';
+    const credit = getCreditAuthors(t, ' & ');
+    const link = series === 'custom' ? buildHelperUrl() : 'https://vpinhub.com/competition';
+    return `This week's table is ${t.name}${mfgYear}! Released by ${credit}! Post Scores and Find the table at ${link}`;
+}
+
+function buildDiscordMessage() {
+    const t = selected;
+    const deadline = getDeadlineDate();
+    const start = new Date(deadline);
+    start.setDate(deadline.getDate() - 7);
+    const periodText = `${formatLongDate(start)} – ${formatLongDate(deadline)}`;
+    const deadlineText = `${weekdayName(deadline)} ${formatLongDate(deadline)} @ 2:00 PM Eastern Time`;
+    const seriesName = series === 'swl' ? 'VPINHUB Special When Lit'
+        : series === 'ttd' ? 'VPINHUB Thursday Throwdown'
+        : (el('customTournamentName').value.trim() || 'Custom Tournament');
+    const competitionUrl = series === 'swl'
+        ? 'https://vpinhub.github.io/competitioncentral/special_when_lit.html'
+        : 'https://vpinhub.github.io/competitioncentral/throwdown.html';
+    const helperUrl = buildHelperUrl();
+    const emojis = el('headerEmoji').value.split('/').map(s => s.trim());
+    const emoji1 = emojis[0] || ':rotating_light:';
+    const emoji2 = emojis[1] || ':trophy:';
+
+    const romSel = el('romField').style.display !== 'none' ? el('romSelect').value : (t.romId || '');
+    const romAuthor = (t.romOptions || []).find(r => r.romId === romSel);
+
+    const themeText = (t.theme || []).join(' / ') || 'Pinball';
+    const creditAuthors = getCreditAuthors(t, ', ');
+
+    let intro = `Get ready to take on **${t.name} (${t.manufacturer || 'Unknown'}${t.year ? ' ' + t.year : ''})**! We're playing the fantastic release from **${creditAuthors}**, featuring nFozzy physics for a truly authentic feel. Grab the flippers, learn the rules, and let's see who can rack up the biggest score and claim the number one spot on the leaderboards!`;
+
+    let lines = [];
+    lines.push(`## ${emoji1} **NEW TOURNAMENT: ${t.name.toUpperCase()} (${(t.manufacturer || '').toUpperCase()}${t.year ? ' ' + t.year : ''})** ${emoji2}`);
+    lines.push('');
+    lines.push(intro);
+    lines.push('');
+
+    const note = el('customNote').value.trim();
+    if (note) {
+        lines.push(`**Important Note:** ${note}`);
+        lines.push('');
+    }
+
+    lines.push('---');
+    lines.push('');
+    lines.push('### :joystick: **EVENT DETAILS**');
+    lines.push(`* **Table:** ${t.name}${t.manufacturer ? ' (' + t.manufacturer + (t.year ? ' ' + t.year : '') + ')' : ''}`);
+    lines.push(`* **Theme:** ${themeText}`);
+    lines.push(`* **Series:** ${seriesName}`);
+    lines.push(`* **Event Period:** ${periodText}`);
+    if (romSel) {
+        lines.push(`* **Rom Required:** \`${romSel}\`${romAuthor && romAuthor.author ? ' (' + romAuthor.author + ')' : ''}`);
+    }
+    const hist = getHistoryFor(t);
+    if (hist) {
+        lines.push(`* **Previously Played:** ${hist.competition} (${hist.period || 'unknown dates'}) — Winner: **${hist.winner || 'unknown'}**`);
+    }
+    const tutorials = getCheckedTutorials();
+    if (tutorials.length) {
+        lines.push('* **Tutorials:**');
+        tutorials.forEach(tut => lines.push(`[**${tut.title.trim()}**](<${tut.url}>)`));
+    }
+    lines.push('');
+    lines.push('---');
+    lines.push('');
+    lines.push('### :alarm_clock: **DEADLINE**');
+    lines.push(`**${deadlineText}**`);
+    lines.push('');
+    lines.push('### :link: **Downloads & Score Submission**');
+    if (series === 'custom') {
+        lines.push(`[**Tournament Helper Page**](<${helperUrl}>)`);
+    } else {
+        lines.push(`[**vpinhub.com/competition**](<${competitionUrl}>)`);
+    }
+    lines.push('---');
+    lines.push('');
+    lines.push(`> *"${el('closingQuote').value.trim() || 'Game on!'}"*`);
+
+    return lines.join('\n');
+}
+
+function renderAll() {
+    if (!selected) return;
+    const deadline = getDeadlineDate();
+    const start = new Date(deadline);
+    start.setDate(deadline.getDate() - 7);
+    el('periodPreview').textContent = `${formatLongDate(start)} – ${formatLongDate(deadline)}`;
+
+    el('outIscored').value = selected.iscoredTag;
+    el('outHelperUrl').value = buildHelperUrl();
+    el('chatMsg').value = buildChatMessage(selected);
+    el('discordMsg').value = buildDiscordMessage();
+    updateQrCode();
+    refreshOverrideJson();
+}
+
+function emptyOverrideEntry() {
+    return { url: null, note: null, tableName: null, manufacturer: null, imgUrl: null };
+}
+
+function buildOverrideJson() {
+    const combined = { swl: emptyOverrideEntry(), ttd: emptyOverrideEntry() };
+    if ((series === 'swl' || series === 'ttd') && selected && el('ovEnabled').checked) {
+        let url = buildHelperUrl();
+        const romUrl = el('ovRomUrl').value.trim();
+        const romAuthor = el('ovRomAuthor').value.trim();
+        const romNote = el('ovRomNote').value.trim();
+        if (romUrl) url += '&rom=' + encodeURIComponent(romUrl);
+        if (romAuthor) url += '&rauthor=' + encodeParam(romAuthor);
+        if (romNote) url += '&rnotes=' + encodeParam(romNote);
+        combined[series] = {
+            url,
+            note: el('ovNote').value.trim() || null,
+            tableName: el('ovTableName').value.trim() || null,
+            manufacturer: el('ovManufacturer').value.trim() || null,
+            imgUrl: el('ovImgUrl').value.trim() || null,
+        };
+    }
+    return JSON.stringify(combined, null, 4);
+}
+
+function refreshOverrideJson() {
+    if (series !== 'swl' && series !== 'ttd') return;
+    el('overrideJsonOut').value = buildOverrideJson();
+}
+
+function updateOverrideVisibility() {
+    const isCustom = series === 'custom';
+    el('overrideBtn').style.display = isCustom ? 'none' : '';
+    el('overrideUnavailableNote').style.display = isCustom ? '' : 'none';
+    el('overridePanel').style.display = (!isCustom && overridePanelOpen) ? '' : 'none';
+    el('overrideJsonField').style.display = (!isCustom && overridePanelOpen) ? '' : 'none';
+}
+
+function updateQrCode() {
+    const box = el('qrCodeBox');
+    const holder = el('qrCanvasHolder');
+    if (!selected || !el('qrcodeFlag').checked) {
+        box.style.display = 'none';
+        holder.innerHTML = '';
+        return;
+    }
+    box.style.display = '';
+    holder.innerHTML = '';
+    new QRCode(holder, {
+        text: el('outHelperUrl').value,
+        width: 200,
+        height: 200,
+        correctLevel: QRCode.CorrectLevel.M,
+    });
+}
+
+el('downloadQrBtn').addEventListener('click', () => {
+    const canvas = el('qrCanvasHolder').querySelector('canvas');
+    if (!canvas) return;
+    const safeName = (selected ? selected.name : 'tournament').replace(/[^a-z0-9]+/gi, '_').replace(/^_+|_+$/g, '');
+    const link = document.createElement('a');
+    link.download = `${safeName || 'tournament'}_qr.png`;
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+});
+
+['deadlineDate', 'customNote', 'closingQuote', 'headerEmoji', 'hideFlag', 'qrcodeFlag', 'customTournamentName'].forEach(id => {
+    el(id).addEventListener('input', renderAll);
+    el(id).addEventListener('change', renderAll);
+});
+document.addEventListener('change', (e) => {
+    if (e.target.classList && (e.target.classList.contains('tutCheck') || e.target.id === 'romSelect')) renderAll();
+});
+
+el('regenBtn').addEventListener('click', () => {
+    if (!selected) return;
+    if (confirm('This will discard any manual edits to the Discord message and rebuild it from the template. Continue?')) {
+        renderAll();
+    }
+});
+
+el('copyMsgBtn').addEventListener('click', () => copyTextarea('discordMsg', el('copyMsgBtn')));
+el('copyChatBtn').addEventListener('click', () => copyTextarea('chatMsg', el('copyChatBtn')));
+
+function copyField(id, btn) {
+    const input = el(id);
+    input.select();
+    navigator.clipboard.writeText(input.value).then(() => flashCopied(btn)).catch(() => {
+        document.execCommand('copy');
+        flashCopied(btn);
+    });
+}
+
+function copyTextarea(id, btn) {
+    const ta = el(id);
+    navigator.clipboard.writeText(ta.value).then(() => flashCopied(btn)).catch(() => {
+        ta.select();
+        document.execCommand('copy');
+        flashCopied(btn);
+    });
+}
+
+function flashCopied(btn) {
+    const original = btn.textContent;
+    btn.textContent = '✅ Copied!';
+    btn.classList.add('success');
+    setTimeout(() => { btn.textContent = original; btn.classList.remove('success'); }, 2000);
+}
+
+function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+loadPool();
+</script>
+</body>
+</html>
