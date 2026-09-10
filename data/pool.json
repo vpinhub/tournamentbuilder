@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T16:17:11.534Z",
+  "generatedAt": "2026-09-10T11:38:57.340Z",
   "sourceAuthors": [
     "vpinworkshop",
     "vpw",
@@ -14,8 +14,8 @@
     "tastywasps",
     "rothbauerw"
   ],
-  "count": 2569,
-  "poolCount": 324,
+  "count": 2573,
+  "poolCount": 326,
   "tables": [
     {
       "tableId": "IMXP7bnaCD",
@@ -6396,6 +6396,33 @@
       "inPool": false
     },
     {
+      "tableId": "7vncUNvFIn",
+      "releaseId": "2jDmmiFmjd",
+      "name": "Baby Sharpshooter",
+      "manufacturer": "Game Plan",
+      "year": 1985,
+      "theme": [
+        "American West"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "JPSalas"
+      ],
+      "matchedAuthors": [],
+      "features": [],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/2jDmmiFmjd_1788724800260.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/2jDmmiFmjd_1788724800260.webp",
+      "ipdbUrl": "https://www.ipdb.org/machine.cgi?id=5680",
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=7vncUNvFIn&releaseId=2jDmmiFmjd",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=7vncUNvFIn&fileType=table#2jDmmiFmjd",
+      "inPool": false
+    },
+    {
       "tableId": "EmwyaCL2K5",
       "releaseId": "Z56S1ZOhdQ",
       "name": "Babylon 5",
@@ -7940,73 +7967,6 @@
       "inPool": true
     },
     {
-      "tableId": "CGem769pxr",
-      "releaseId": "Y7fGSrsolQ",
-      "name": "Batman - Joker Edition",
-      "manufacturer": "Original",
-      "year": 2015,
-      "theme": [
-        "Comics",
-        "Superheroes"
-      ],
-      "mpu": null,
-      "type": "SS",
-      "authors": [
-        "Gimli",
-        "Glxb",
-        "Lord Hiryu",
-        "Moogster",
-        "Steve Paradis (Polygame)",
-        "SLAMT1LT"
-      ],
-      "matchedAuthors": [],
-      "features": [
-        "MOD"
-      ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1694543657303.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1694543657303.webp",
-      "ipdbUrl": null,
-      "romId": null,
-      "romAuthor": null,
-      "romOptions": [],
-      "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=CGem769pxr&releaseId=Y7fGSrsolQ",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=CGem769pxr&fileType=table#Y7fGSrsolQ",
-      "inPool": false
-    },
-    {
-      "tableId": "1K2wSOPfcy",
-      "releaseId": "-Z8JCoCog8",
-      "name": "Batman - The Animated Series",
-      "manufacturer": "Original",
-      "year": 2020,
-      "theme": [
-        "Animation",
-        "Superheroes",
-        "Comics"
-      ],
-      "mpu": null,
-      "type": "EM",
-      "authors": [
-        "Dunriwikan45"
-      ],
-      "matchedAuthors": [],
-      "features": [
-        "no ROM",
-        "incl. PuP"
-      ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1677792483017.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1677792483017.webp",
-      "ipdbUrl": null,
-      "romId": null,
-      "romAuthor": null,
-      "romOptions": [],
-      "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=1K2wSOPfcy&releaseId=-Z8JCoCog8",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=1K2wSOPfcy&fileType=table#-Z8JCoCog8",
-      "inPool": false
-    },
-    {
       "tableId": "Aifl54Zy",
       "releaseId": "MBB1gIGRqm",
       "name": "Batman '66",
@@ -8115,6 +8075,73 @@
       ],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=JyxgU6op0S&releaseId=UYz53f4Vy5",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=JyxgU6op0S&fileType=table#UYz53f4Vy5",
+      "inPool": false
+    },
+    {
+      "tableId": "CGem769pxr",
+      "releaseId": "Y7fGSrsolQ",
+      "name": "Batman - Joker Edition",
+      "manufacturer": "Original",
+      "year": 2015,
+      "theme": [
+        "Comics",
+        "Superheroes"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "Gimli",
+        "Glxb",
+        "Lord Hiryu",
+        "Moogster",
+        "Steve Paradis (Polygame)",
+        "SLAMT1LT"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "MOD"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1694543657303.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1694543657303.webp",
+      "ipdbUrl": null,
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=CGem769pxr&releaseId=Y7fGSrsolQ",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=CGem769pxr&fileType=table#Y7fGSrsolQ",
+      "inPool": false
+    },
+    {
+      "tableId": "1K2wSOPfcy",
+      "releaseId": "-Z8JCoCog8",
+      "name": "Batman - The Animated Series",
+      "manufacturer": "Original",
+      "year": 2020,
+      "theme": [
+        "Animation",
+        "Superheroes",
+        "Comics"
+      ],
+      "mpu": null,
+      "type": "EM",
+      "authors": [
+        "Dunriwikan45"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "no ROM",
+        "incl. PuP"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1677792483017.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1677792483017.webp",
+      "ipdbUrl": null,
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=1K2wSOPfcy&releaseId=-Z8JCoCog8",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=1K2wSOPfcy&fileType=table#-Z8JCoCog8",
       "inPool": false
     },
     {
@@ -8995,7 +9022,10 @@
       "name": "Beetlejuice Beetlejuice",
       "manufacturer": "Original",
       "year": 2026,
-      "theme": [],
+      "theme": [
+        "Movie",
+        "Supernatural"
+      ],
       "mpu": null,
       "type": "SS",
       "authors": [
@@ -12906,7 +12936,8 @@
       "year": 2026,
       "theme": [
         "Science Fiction",
-        "Action"
+        "Action",
+        "Video Game"
       ],
       "mpu": null,
       "type": "SS",
@@ -14530,6 +14561,31 @@
       "tutorials": [],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=K9B7Om9M&releaseId=k4ytvysp",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=K9B7Om9M&fileType=table#k4ytvysp",
+      "inPool": false
+    },
+    {
+      "tableId": "9siis3RwpY",
+      "releaseId": "5K-ZB_Jqpx",
+      "name": "Buttons and Bows",
+      "manufacturer": "Gottlieb",
+      "year": 1949,
+      "theme": [],
+      "mpu": null,
+      "type": "EM",
+      "authors": [
+        "Francisco666"
+      ],
+      "matchedAuthors": [],
+      "features": [],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/5K-ZB_Jqpx_1788747137220.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/5K-ZB_Jqpx_1788747137220.webp",
+      "ipdbUrl": "https://www.ipdb.org/machine.cgi?id=413",
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=9siis3RwpY&releaseId=5K-ZB_Jqpx",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=9siis3RwpY&fileType=table#5K-ZB_Jqpx",
       "inPool": false
     },
     {
@@ -23474,7 +23530,11 @@
       "name": "Diablo 2",
       "manufacturer": "Original",
       "year": 2026,
-      "theme": [],
+      "theme": [
+        "Video Game",
+        "Roleplaying",
+        "Adventure"
+      ],
       "mpu": null,
       "type": "SS",
       "authors": [
@@ -32353,7 +32413,9 @@
       "name": "Fortnite",
       "manufacturer": "Original",
       "year": 2024,
-      "theme": [],
+      "theme": [
+        "Video Game"
+      ],
       "mpu": null,
       "type": "SS",
       "authors": [
@@ -34048,7 +34110,10 @@
       "name": "Game Of Dog",
       "manufacturer": "Original",
       "year": 2026,
-      "theme": [],
+      "theme": [
+        "Animals",
+        "Cartoon"
+      ],
       "mpu": null,
       "type": "SS",
       "authors": [
@@ -40584,7 +40649,11 @@
       "name": "Hot Racers",
       "manufacturer": "Original",
       "year": 2026,
-      "theme": [],
+      "theme": [
+        "Cars",
+        "Car Rally",
+        "Auto Racing"
+      ],
       "mpu": null,
       "type": "SS",
       "authors": [
@@ -47317,7 +47386,12 @@
       "name": "K-POP Demon Hunters",
       "manufacturer": "Original",
       "year": 2026,
-      "theme": [],
+      "theme": [
+        "Anime",
+        "Pop",
+        "Supernatural",
+        "Music"
+      ],
       "mpu": null,
       "type": "SS",
       "authors": [
@@ -47485,6 +47559,36 @@
       ],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=LF7EDZ7tFr&releaseId=5RDLdkETk6",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=LF7EDZ7tFr&fileType=table#5RDLdkETk6",
+      "inPool": false
+    },
+    {
+      "tableId": "9PtNLdNkou",
+      "releaseId": "Z3etrR8f0s",
+      "name": "Kickboxer",
+      "manufacturer": "Original",
+      "year": 2026,
+      "theme": [
+        "Martial Arts",
+        "Movie"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "therealjazzee"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "FlexDMD"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/Z3etrR8f0s_1788723335852.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/Z3etrR8f0s_1788723335852.webp",
+      "ipdbUrl": null,
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=9PtNLdNkou&releaseId=Z3etrR8f0s",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=9PtNLdNkou&fileType=table#Z3etrR8f0s",
       "inPool": false
     },
     {
@@ -49462,6 +49566,33 @@
       "tutorials": [],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=11NXHyiSul&releaseId=vrlqj9CKKr",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=11NXHyiSul&fileType=table#vrlqj9CKKr",
+      "inPool": false
+    },
+    {
+      "tableId": "frbN6KC0aT",
+      "releaseId": "zG8bQ-hVD-",
+      "name": "Lady Sharpshooter",
+      "manufacturer": "Game Plan",
+      "year": 1985,
+      "theme": [
+        "American West"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "JPSalas"
+      ],
+      "matchedAuthors": [],
+      "features": [],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/zG8bQ-hVD-_1788724637926.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/zG8bQ-hVD-_1788724637926.webp",
+      "ipdbUrl": "https://www.ipdb.org/machine.cgi?id=2407",
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=frbN6KC0aT&releaseId=zG8bQ-hVD-",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=frbN6KC0aT&fileType=table#zG8bQ-hVD-",
       "inPool": false
     },
     {
@@ -53167,36 +53298,6 @@
       "inPool": false
     },
     {
-      "tableId": "eeD6wgDQ",
-      "releaseId": "UHX8b0uIB-",
-      "name": "Marvel’s The Avengers",
-      "manufacturer": "Zen Studios",
-      "year": 2012,
-      "theme": [
-        "Licensed Theme",
-        "Comics",
-        "Superheroes"
-      ],
-      "mpu": null,
-      "type": "SS",
-      "authors": [
-        "Zen Studios",
-        "Thomas Crofts"
-      ],
-      "matchedAuthors": [],
-      "features": [],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/eeD6wgDQ_table_1690122704231.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/eeD6wgDQ_table_1690122704231.webp",
-      "ipdbUrl": null,
-      "romId": null,
-      "romAuthor": null,
-      "romOptions": [],
-      "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=eeD6wgDQ&releaseId=UHX8b0uIB-",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=eeD6wgDQ&fileType=table#UHX8b0uIB-",
-      "inPool": false
-    },
-    {
       "tableId": "YDtIBV05",
       "releaseId": "L8A5QEvnVm",
       "name": "Marvel's Women of Power - A-Force",
@@ -53254,6 +53355,36 @@
       "tutorials": [],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=fOUA_24M&releaseId=5VlCw7eppG",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=fOUA_24M&fileType=table#5VlCw7eppG",
+      "inPool": false
+    },
+    {
+      "tableId": "eeD6wgDQ",
+      "releaseId": "UHX8b0uIB-",
+      "name": "Marvel’s The Avengers",
+      "manufacturer": "Zen Studios",
+      "year": 2012,
+      "theme": [
+        "Licensed Theme",
+        "Comics",
+        "Superheroes"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "Zen Studios",
+        "Thomas Crofts"
+      ],
+      "matchedAuthors": [],
+      "features": [],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/eeD6wgDQ_table_1690122704231.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/eeD6wgDQ_table_1690122704231.webp",
+      "ipdbUrl": null,
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=eeD6wgDQ&releaseId=UHX8b0uIB-",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=eeD6wgDQ&fileType=table#UHX8b0uIB-",
       "inPool": false
     },
     {
@@ -53408,7 +53539,10 @@
       "name": "Mass Effect",
       "manufacturer": "Original",
       "year": 2026,
-      "theme": [],
+      "theme": [
+        "Video Game",
+        "Space Fantasy"
+      ],
       "mpu": null,
       "type": "SS",
       "authors": [
@@ -54283,45 +54417,6 @@
       "inPool": false
     },
     {
-      "tableId": "2byh2-U-",
-      "releaseId": "vZiwCBZ8",
-      "name": "Metallica - Master of Puppets",
-      "manufacturer": "Original",
-      "year": 2020,
-      "theme": [
-        "Music",
-        "Heavy Metal"
-      ],
-      "mpu": null,
-      "type": "SS",
-      "authors": [
-        "pedroperes02",
-        "Freneticamnesic",
-        "Movieguru"
-      ],
-      "matchedAuthors": [],
-      "features": [
-        "MOD",
-        "incl. PuP",
-        "Retheme"
-      ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/2byh2-U-_table_1650552994983.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/2byh2-U-_table_1650552994983.webp",
-      "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=6030",
-      "romId": "mtl_170h",
-      "romAuthor": "CarnyPriest",
-      "romOptions": [
-        {
-          "romId": "mtl_170h",
-          "author": "CarnyPriest"
-        }
-      ],
-      "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=2byh2-U-&releaseId=vZiwCBZ8",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=2byh2-U-&fileType=table#vZiwCBZ8",
-      "inPool": false
-    },
-    {
       "tableId": "oQwWzztd",
       "releaseId": "AVaA_PMI",
       "name": "Metallica (Premium Monsters)",
@@ -54415,6 +54510,45 @@
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=oQwWzztd&releaseId=AVaA_PMI",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=oQwWzztd&fileType=table#AVaA_PMI",
       "inPool": true
+    },
+    {
+      "tableId": "2byh2-U-",
+      "releaseId": "vZiwCBZ8",
+      "name": "Metallica - Master of Puppets",
+      "manufacturer": "Original",
+      "year": 2020,
+      "theme": [
+        "Music",
+        "Heavy Metal"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "pedroperes02",
+        "Freneticamnesic",
+        "Movieguru"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "MOD",
+        "incl. PuP",
+        "Retheme"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/2byh2-U-_table_1650552994983.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/2byh2-U-_table_1650552994983.webp",
+      "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=6030",
+      "romId": "mtl_170h",
+      "romAuthor": "CarnyPriest",
+      "romOptions": [
+        {
+          "romId": "mtl_170h",
+          "author": "CarnyPriest"
+        }
+      ],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=2byh2-U-&releaseId=vZiwCBZ8",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=2byh2-U-&fileType=table#vZiwCBZ8",
+      "inPool": false
     },
     {
       "tableId": "FrfsSwGv",
@@ -62670,7 +62804,7 @@
     },
     {
       "tableId": "ADqWSy1p",
-      "releaseId": "KmMPjKO1",
+      "releaseId": "nYs4bjGep1",
       "name": "Pinball Magic",
       "manufacturer": "Capcom",
       "year": 1995,
@@ -62681,20 +62815,22 @@
       "mpu": "Capcom A0015405",
       "type": "SS",
       "authors": [
-        "Bigus1",
-        "Rothbauerw",
+        "LoadedWeapon",
         "UncleWilly",
-        "DJRobX",
-        "Randr"
+        "Rothbauerw",
+        "Sorbeppe",
+        "Burger"
       ],
       "matchedAuthors": [
         "Rothbauerw"
       ],
       "features": [
-        "MOD"
+        "MOD",
+        "nFozzy",
+        "Fleep"
       ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/GhJ0zj3KWN_1756556625318.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/KmMPjKO1_1758320652181.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/nYs4bjGep1_1737242520785.webp",
       "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=3596",
       "romId": "pmv112",
       "romAuthor": "Destruk",
@@ -62710,9 +62846,9 @@
           "url": "https://pinballprimer.github.io/pinballmagic_GrZnn.html"
         }
       ],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=ADqWSy1p&releaseId=KmMPjKO1",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=ADqWSy1p&fileType=table#KmMPjKO1",
-      "inPool": false
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=ADqWSy1p&releaseId=nYs4bjGep1",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=ADqWSy1p&fileType=table#nYs4bjGep1",
+      "inPool": true
     },
     {
       "tableId": "WCiFOdmdGp",
@@ -78671,7 +78807,11 @@
       "name": "STAR FOX – BATTLE FOR LYLAT",
       "manufacturer": "Original",
       "year": 2026,
-      "theme": [],
+      "theme": [
+        "Video Game",
+        "Outer Space",
+        "Space Fantasy"
+      ],
       "mpu": null,
       "type": "SS",
       "authors": [
@@ -79233,6 +79373,72 @@
       "inPool": false
     },
     {
+      "tableId": "XYh-gw4S",
+      "releaseId": "HsQi0my24N",
+      "name": "Star Trek (Enterprise Limited Edition)",
+      "manufacturer": "Stern",
+      "year": 2013,
+      "theme": [
+        "Licensed Theme",
+        "Outer Space",
+        "Science Fiction",
+        "Space Fantasy",
+        "Movie"
+      ],
+      "mpu": "Stern S.A.M. Board System",
+      "type": "SS",
+      "authors": [
+        "LoadedWeapon",
+        "TastyWasps",
+        "nFozzy",
+        "Wrd1972",
+        "Rothbauerw",
+        "Zany",
+        "Dark",
+        "Knorr",
+        "ClarkKent",
+        "Ninuzzu",
+        "Jesperpark",
+        "Neofr45",
+        "Sixtoe"
+      ],
+      "matchedAuthors": [
+        "TastyWasps",
+        "Rothbauerw"
+      ],
+      "features": [
+        "VPU Patch",
+        "VR",
+        "nFozzy",
+        "Fleep",
+        "FastFlips"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/ZwWOf4NFZU_1709909776133.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/HsQi0my24N_1770582831240.webp",
+      "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=6046",
+      "romId": "st_161h",
+      "romAuthor": "CarnyPriest",
+      "romOptions": [
+        {
+          "romId": "st_161h",
+          "author": "CarnyPriest"
+        },
+        {
+          "romId": "st_162h",
+          "author": "Stern"
+        }
+      ],
+      "tutorials": [
+        {
+          "title": "Star Trek LE (Stern 2013) Pinball Tutorial: Master the Missions & Command the Enterprise!",
+          "url": "https://vpuniverse.com/files/file/26933-star-trek-le-stern-2013-vpx-video-instruction/"
+        }
+      ],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=XYh-gw4S&releaseId=HsQi0my24N",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=XYh-gw4S&fileType=table#HsQi0my24N",
+      "inPool": true
+    },
+    {
       "tableId": "HG-rBUriLt",
       "releaseId": "237KyUUOp8",
       "name": "Star Trek - Spock Tribute",
@@ -79410,72 +79616,6 @@
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=xwmYYB_46q&releaseId=09WQOqShiT",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=xwmYYB_46q&fileType=table#09WQOqShiT",
       "inPool": false
-    },
-    {
-      "tableId": "XYh-gw4S",
-      "releaseId": "HsQi0my24N",
-      "name": "Star Trek (Enterprise Limited Edition)",
-      "manufacturer": "Stern",
-      "year": 2013,
-      "theme": [
-        "Licensed Theme",
-        "Outer Space",
-        "Science Fiction",
-        "Space Fantasy",
-        "Movie"
-      ],
-      "mpu": "Stern S.A.M. Board System",
-      "type": "SS",
-      "authors": [
-        "LoadedWeapon",
-        "TastyWasps",
-        "nFozzy",
-        "Wrd1972",
-        "Rothbauerw",
-        "Zany",
-        "Dark",
-        "Knorr",
-        "ClarkKent",
-        "Ninuzzu",
-        "Jesperpark",
-        "Neofr45",
-        "Sixtoe"
-      ],
-      "matchedAuthors": [
-        "TastyWasps",
-        "Rothbauerw"
-      ],
-      "features": [
-        "VPU Patch",
-        "VR",
-        "nFozzy",
-        "Fleep",
-        "FastFlips"
-      ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/ZwWOf4NFZU_1709909776133.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/HsQi0my24N_1770582831240.webp",
-      "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=6046",
-      "romId": "st_161h",
-      "romAuthor": "CarnyPriest",
-      "romOptions": [
-        {
-          "romId": "st_161h",
-          "author": "CarnyPriest"
-        },
-        {
-          "romId": "st_162h",
-          "author": "Stern"
-        }
-      ],
-      "tutorials": [
-        {
-          "title": "Star Trek LE (Stern 2013) Pinball Tutorial: Master the Missions & Command the Enterprise!",
-          "url": "https://vpuniverse.com/files/file/26933-star-trek-le-stern-2013-vpx-video-instruction/"
-        }
-      ],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=XYh-gw4S&releaseId=HsQi0my24N",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=XYh-gw4S&fileType=table#HsQi0my24N",
-      "inPool": true
     },
     {
       "tableId": "O4oV8ZEUcC",
@@ -84112,7 +84252,7 @@
         "nFozzy",
         "Fleep"
       ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/38669139f1adde8e6dec83ca39d3048e_b2s_1638093719867.webp",
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/TL7VZ_plxZ_1788802971570.webp",
       "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/YViO0Fxu14_1788703976601.webp",
       "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=2489",
       "romId": null,
@@ -85997,43 +86137,6 @@
       "inPool": false
     },
     {
-      "tableId": "BST4aSKoxJ",
-      "releaseId": "LGFAsFgty5",
-      "name": "The Avengers - TV Series",
-      "manufacturer": "Original",
-      "year": 2023,
-      "theme": [
-        "TV Show",
-        "Spies",
-        "Action",
-        "Comedy"
-      ],
-      "mpu": null,
-      "type": "SS",
-      "authors": [
-        "VLive",
-        "Icepinball"
-      ],
-      "matchedAuthors": [],
-      "features": [
-        "no ROM",
-        "incl. Art",
-        "FlexDMD",
-        "incl. B2S",
-        "incl. Video"
-      ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/BST4aSKoxJ_b2s_1703595796747.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1703276663225.webp",
-      "ipdbUrl": null,
-      "romId": null,
-      "romAuthor": null,
-      "romOptions": [],
-      "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=BST4aSKoxJ&releaseId=LGFAsFgty5",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=BST4aSKoxJ&fileType=table#LGFAsFgty5",
-      "inPool": false
-    },
-    {
       "tableId": "GIAiwQnX",
       "releaseId": "DvFFrMji_Z",
       "name": "The Avengers (Pro)",
@@ -86095,6 +86198,43 @@
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=GIAiwQnX&releaseId=DvFFrMji_Z",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=GIAiwQnX&fileType=table#DvFFrMji_Z",
       "inPool": true
+    },
+    {
+      "tableId": "BST4aSKoxJ",
+      "releaseId": "LGFAsFgty5",
+      "name": "The Avengers - TV Series",
+      "manufacturer": "Original",
+      "year": 2023,
+      "theme": [
+        "TV Show",
+        "Spies",
+        "Action",
+        "Comedy"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "VLive",
+        "Icepinball"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "no ROM",
+        "incl. Art",
+        "FlexDMD",
+        "incl. B2S",
+        "incl. Video"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/BST4aSKoxJ_b2s_1703595796747.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1703276663225.webp",
+      "ipdbUrl": null,
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=BST4aSKoxJ&releaseId=LGFAsFgty5",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=BST4aSKoxJ&fileType=table#LGFAsFgty5",
+      "inPool": false
     },
     {
       "tableId": "l8PhYmEL",
@@ -89866,45 +90006,6 @@
       "inPool": false
     },
     {
-      "tableId": "HZtSiR3MNF",
-      "releaseId": "sByXH45WeO",
-      "name": "The Return of the Living Dead",
-      "manufacturer": "Original",
-      "year": 2020,
-      "theme": [
-        "Horror",
-        "Movie"
-      ],
-      "mpu": null,
-      "type": "SS",
-      "authors": [
-        "Ivantba",
-        "Mfuegemann"
-      ],
-      "matchedAuthors": [],
-      "features": [
-        "incl. B2S",
-        "MOD",
-        "incl. Art",
-        "Retheme"
-      ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/S0oyy8sS_table_1661264122642.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/S0oyy8sS_table_1661264122642.webp",
-      "ipdbUrl": null,
-      "romId": "darkshad",
-      "romAuthor": "VPUStaff",
-      "romOptions": [
-        {
-          "romId": "darkshad",
-          "author": "VPUStaff"
-        }
-      ],
-      "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=HZtSiR3MNF&releaseId=sByXH45WeO",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=HZtSiR3MNF&fileType=table#sByXH45WeO",
-      "inPool": false
-    },
-    {
       "tableId": "8aHHmx4HuK",
       "releaseId": "0vUhQnzUpg",
       "name": "The Return Of The Living Dead",
@@ -89953,6 +90054,45 @@
       "tutorials": [],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=8aHHmx4HuK&releaseId=0vUhQnzUpg",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=8aHHmx4HuK&fileType=table#0vUhQnzUpg",
+      "inPool": false
+    },
+    {
+      "tableId": "HZtSiR3MNF",
+      "releaseId": "sByXH45WeO",
+      "name": "The Return of the Living Dead",
+      "manufacturer": "Original",
+      "year": 2020,
+      "theme": [
+        "Horror",
+        "Movie"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "Ivantba",
+        "Mfuegemann"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "incl. B2S",
+        "MOD",
+        "incl. Art",
+        "Retheme"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/S0oyy8sS_table_1661264122642.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/S0oyy8sS_table_1661264122642.webp",
+      "ipdbUrl": null,
+      "romId": "darkshad",
+      "romAuthor": "VPUStaff",
+      "romOptions": [
+        {
+          "romId": "darkshad",
+          "author": "VPUStaff"
+        }
+      ],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=HZtSiR3MNF&releaseId=sByXH45WeO",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=HZtSiR3MNF&fileType=table#sByXH45WeO",
       "inPool": false
     },
     {
@@ -90062,7 +90202,7 @@
     },
     {
       "tableId": "bzDWLumS",
-      "releaseId": "yfPwDiVATe",
+      "releaseId": "m7ZygXzkG3",
       "name": "The Shadow",
       "manufacturer": "Bally",
       "year": 1994,
@@ -90076,12 +90216,30 @@
       "mpu": "Williams WPC Security (WPC-S)",
       "type": "SS",
       "authors": [
+        "VPW",
+        "Sixtoe",
+        "DoughNut",
+        "Burger",
+        "Tomate",
+        "Apophis",
+        "DGrimmReaper",
+        "Skitso",
+        "Markrock76",
+        "Bord",
         "Alessio"
       ],
-      "matchedAuthors": [],
-      "features": [],
+      "matchedAuthors": [
+        "VPW",
+        "Bord"
+      ],
+      "features": [
+        "Hybrid",
+        "VR",
+        "nFozzy",
+        "Fleep"
+      ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/im4smVVWf8_1757462954107.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/bzDWLumS_b2s_1695044088251.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/m7ZygXzkG3_1788722636223.webp",
       "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=2528",
       "romId": "ts_lx5",
       "romAuthor": "Destruk",
@@ -90097,9 +90255,9 @@
           "url": "https://pinballprimer.github.io/shadow_G4jPX.html"
         }
       ],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=bzDWLumS&releaseId=yfPwDiVATe",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=bzDWLumS&fileType=table#yfPwDiVATe",
-      "inPool": false
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=bzDWLumS&releaseId=m7ZygXzkG3",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=bzDWLumS&fileType=table#m7ZygXzkG3",
+      "inPool": true
     },
     {
       "tableId": "gcxOqj6szM",
@@ -94094,46 +94252,6 @@
       "inPool": false
     },
     {
-      "tableId": "wnwLs1iw",
-      "releaseId": "-BIEKO2q",
-      "name": "Transformers - The Movie 1986",
-      "manufacturer": "Original",
-      "year": 2019,
-      "theme": [
-        "Science Fiction",
-        "Movie"
-      ],
-      "mpu": null,
-      "type": "SS",
-      "authors": [
-        "Ivantba",
-        "Bigus1",
-        "32assassin"
-      ],
-      "matchedAuthors": [],
-      "features": [
-        "incl. B2S",
-        "incl. Art",
-        "Retheme",
-        "MOD"
-      ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/b80294d3660c29481f2d6ef67c5c901e_table_1638094245063.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/b80294d3660c29481f2d6ef67c5c901e_table_1638094245063.webp",
-      "ipdbUrl": null,
-      "romId": "dfndr_l4",
-      "romAuthor": "Destruk",
-      "romOptions": [
-        {
-          "romId": "dfndr_l4",
-          "author": "Destruk"
-        }
-      ],
-      "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=wnwLs1iw&releaseId=-BIEKO2q",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=wnwLs1iw&fileType=table#-BIEKO2q",
-      "inPool": false
-    },
-    {
       "tableId": "liKT-fsT",
       "releaseId": "uyJ5RDRCu6",
       "name": "Transformers (Pro)",
@@ -94203,6 +94321,46 @@
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=liKT-fsT&releaseId=uyJ5RDRCu6",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=liKT-fsT&fileType=table#uyJ5RDRCu6",
       "inPool": true
+    },
+    {
+      "tableId": "wnwLs1iw",
+      "releaseId": "-BIEKO2q",
+      "name": "Transformers - The Movie 1986",
+      "manufacturer": "Original",
+      "year": 2019,
+      "theme": [
+        "Science Fiction",
+        "Movie"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "Ivantba",
+        "Bigus1",
+        "32assassin"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "incl. B2S",
+        "incl. Art",
+        "Retheme",
+        "MOD"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/b80294d3660c29481f2d6ef67c5c901e_table_1638094245063.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/b80294d3660c29481f2d6ef67c5c901e_table_1638094245063.webp",
+      "ipdbUrl": null,
+      "romId": "dfndr_l4",
+      "romAuthor": "Destruk",
+      "romOptions": [
+        {
+          "romId": "dfndr_l4",
+          "author": "Destruk"
+        }
+      ],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=wnwLs1iw&releaseId=-BIEKO2q",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=wnwLs1iw&fileType=table#-BIEKO2q",
+      "inPool": false
     },
     {
       "tableId": "TVjgkoY3",
@@ -95096,7 +95254,9 @@
       "name": "Trust",
       "manufacturer": "Original",
       "year": 2026,
-      "theme": [],
+      "theme": [
+        "Music"
+      ],
       "mpu": null,
       "type": "SS",
       "authors": [
@@ -96521,34 +96681,6 @@
       "inPool": false
     },
     {
-      "tableId": "x2d9uK4Z6D",
-      "releaseId": "dbBrujes3E",
-      "name": "Verne’s Mysterious Island",
-      "manufacturer": "Zen Studios",
-      "year": 2023,
-      "theme": [
-        "Pirates",
-        "Adventure"
-      ],
-      "mpu": null,
-      "type": "SS",
-      "authors": [
-        "Zen Studios"
-      ],
-      "matchedAuthors": [],
-      "features": [],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1689617108671.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1689617108671.webp",
-      "ipdbUrl": null,
-      "romId": null,
-      "romAuthor": null,
-      "romOptions": [],
-      "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=x2d9uK4Z6D&releaseId=dbBrujes3E",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=x2d9uK4Z6D&fileType=table#dbBrujes3E",
-      "inPool": false
-    },
-    {
       "tableId": "mP9LxJBn",
       "releaseId": "ciQAiNQ0ho",
       "name": "Verne's World",
@@ -96586,6 +96718,34 @@
       "tutorials": [],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=mP9LxJBn&releaseId=ciQAiNQ0ho",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=mP9LxJBn&fileType=table#ciQAiNQ0ho",
+      "inPool": false
+    },
+    {
+      "tableId": "x2d9uK4Z6D",
+      "releaseId": "dbBrujes3E",
+      "name": "Verne’s Mysterious Island",
+      "manufacturer": "Zen Studios",
+      "year": 2023,
+      "theme": [
+        "Pirates",
+        "Adventure"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "Zen Studios"
+      ],
+      "matchedAuthors": [],
+      "features": [],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1689617108671.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1689617108671.webp",
+      "ipdbUrl": null,
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=x2d9uK4Z6D&releaseId=dbBrujes3E",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=x2d9uK4Z6D&fileType=table#dbBrujes3E",
       "inPool": false
     },
     {
@@ -97915,7 +98075,7 @@
       "features": [
         "VR"
       ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/_DvTQf1O_b2s_1692796910178.webp",
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/FA5BpDWdRZ_1788803100095.webp",
       "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/_DvTQf1O_table_1691760751755.webp",
       "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=5254",
       "romId": "wof_500",
@@ -99580,7 +99740,13 @@
       "name": "Wuthering Waves",
       "manufacturer": "Original",
       "year": 2026,
-      "theme": [],
+      "theme": [
+        "Anime",
+        "Roleplaying",
+        "Video Game",
+        "Fantasy",
+        "Martial Arts"
+      ],
       "mpu": null,
       "type": "SS",
       "authors": [
@@ -99681,6 +99847,48 @@
       "tutorials": [],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=KVi5vBO_Ny&releaseId=VZNJHNKA9a",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=KVi5vBO_Ny&fileType=table#VZNJHNKA9a",
+      "inPool": false
+    },
+    {
+      "tableId": "EpEqASUB",
+      "releaseId": "tcABqX7Q",
+      "name": "X's & O's",
+      "manufacturer": "Bally",
+      "year": 1984,
+      "theme": [
+        "Board Games",
+        "Tic-Tac-Toe"
+      ],
+      "mpu": "Bally MPU AS-2518-35",
+      "type": "SS",
+      "authors": [
+        "32assassin"
+      ],
+      "matchedAuthors": [],
+      "features": [],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/IgACdfEgkt_1787632609459.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/EpEqASUB_table_1687226633843.webp",
+      "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=2822",
+      "romId": "xsandosa",
+      "romAuthor": null,
+      "romOptions": [
+        {
+          "romId": "xsandosa",
+          "author": null
+        },
+        {
+          "romId": "xsandos",
+          "author": "Destruk"
+        }
+      ],
+      "tutorials": [
+        {
+          "title": " X's & O's",
+          "url": "https://pinballprimer.github.io/xsandos_GRpWD.html"
+        }
+      ],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=EpEqASUB&releaseId=tcABqX7Q",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=EpEqASUB&fileType=table#tcABqX7Q",
       "inPool": false
     },
     {
@@ -99826,48 +100034,6 @@
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=JjZGAssNXT&releaseId=dARgmfwqEe",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=JjZGAssNXT&fileType=table#dARgmfwqEe",
       "inPool": true
-    },
-    {
-      "tableId": "EpEqASUB",
-      "releaseId": "tcABqX7Q",
-      "name": "X's & O's",
-      "manufacturer": "Bally",
-      "year": 1984,
-      "theme": [
-        "Board Games",
-        "Tic-Tac-Toe"
-      ],
-      "mpu": "Bally MPU AS-2518-35",
-      "type": "SS",
-      "authors": [
-        "32assassin"
-      ],
-      "matchedAuthors": [],
-      "features": [],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/IgACdfEgkt_1787632609459.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/EpEqASUB_table_1687226633843.webp",
-      "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=2822",
-      "romId": "xsandosa",
-      "romAuthor": null,
-      "romOptions": [
-        {
-          "romId": "xsandosa",
-          "author": null
-        },
-        {
-          "romId": "xsandos",
-          "author": "Destruk"
-        }
-      ],
-      "tutorials": [
-        {
-          "title": " X's & O's",
-          "url": "https://pinballprimer.github.io/xsandos_GRpWD.html"
-        }
-      ],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=EpEqASUB&releaseId=tcABqX7Q",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=EpEqASUB&fileType=table#tcABqX7Q",
-      "inPool": false
     },
     {
       "tableId": "0BxxyhvO1Q",
@@ -100121,47 +100287,6 @@
       "inPool": false
     },
     {
-      "tableId": "V_-orO7p4M",
-      "releaseId": "WkzBKsIaqe",
-      "name": "You’ll Shoot Your Eye Out!",
-      "manufacturer": "Original",
-      "year": 2024,
-      "theme": [
-        "Christmas",
-        "Movie",
-        "Kids"
-      ],
-      "mpu": null,
-      "type": "EM",
-      "authors": [
-        "HauntFreaks",
-        "Allknowing2012",
-        "Cliffy",
-        "Teisen",
-        "Abhcoide",
-        "DGrimmReaper",
-        "Apophis"
-      ],
-      "matchedAuthors": [
-        "HauntFreaks"
-      ],
-      "features": [
-        "Hybrid",
-        "VR",
-        "nFozzy"
-      ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/Gg8XHdrmHp_1734394303673.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/WkzBKsIaqe_1734393908217.webp",
-      "ipdbUrl": null,
-      "romId": null,
-      "romAuthor": null,
-      "romOptions": [],
-      "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=V_-orO7p4M&releaseId=WkzBKsIaqe",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=V_-orO7p4M&fileType=table#WkzBKsIaqe",
-      "inPool": true
-    },
-    {
       "tableId": "5bhr0zf_",
       "releaseId": "rcjsv2h9",
       "name": "Young Frankenstein",
@@ -100279,6 +100404,47 @@
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=VppDriQdCY&releaseId=lixjunCEDn",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=VppDriQdCY&fileType=table#lixjunCEDn",
       "inPool": false
+    },
+    {
+      "tableId": "V_-orO7p4M",
+      "releaseId": "WkzBKsIaqe",
+      "name": "You’ll Shoot Your Eye Out!",
+      "manufacturer": "Original",
+      "year": 2024,
+      "theme": [
+        "Christmas",
+        "Movie",
+        "Kids"
+      ],
+      "mpu": null,
+      "type": "EM",
+      "authors": [
+        "HauntFreaks",
+        "Allknowing2012",
+        "Cliffy",
+        "Teisen",
+        "Abhcoide",
+        "DGrimmReaper",
+        "Apophis"
+      ],
+      "matchedAuthors": [
+        "HauntFreaks"
+      ],
+      "features": [
+        "Hybrid",
+        "VR",
+        "nFozzy"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/Gg8XHdrmHp_1734394303673.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/WkzBKsIaqe_1734393908217.webp",
+      "ipdbUrl": null,
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=V_-orO7p4M&releaseId=WkzBKsIaqe",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=V_-orO7p4M&fileType=table#WkzBKsIaqe",
+      "inPool": true
     },
     {
       "tableId": "5rZvqxlx",
