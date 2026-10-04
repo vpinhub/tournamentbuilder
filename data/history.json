@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T11:38:58.063Z",
-  "count": 62,
+  "generatedAt": "2026-10-04T18:53:10.806Z",
+  "count": 70,
   "byTable": {
     "the goonies never say die pinball": {
       "table": "THE GOONIES NEVER SAY DIE PINBALL",
@@ -435,6 +435,62 @@
       "period": "8/30/2026 - 9/6/2026",
       "winner": "Autobott",
       "date": "2026-09-06"
+    },
+    "centaur": {
+      "table": "Centaur",
+      "competition": "Thursday Throwdown",
+      "period": "9/3/2026 - 9/10/2026",
+      "winner": "Autobott",
+      "date": "2026-09-10"
+    },
+    "tee'd off": {
+      "table": "Tee'd Off",
+      "competition": "Special When Lit",
+      "period": "9/6/2026 - 9/13/2026",
+      "winner": "ED209",
+      "date": "2026-09-13"
+    },
+    "the shadow": {
+      "table": "The Shadow",
+      "competition": "Thursday Throwdown",
+      "period": "9/10/2026 - 9/17/2026",
+      "winner": "Autobott",
+      "date": "2026-09-17"
+    },
+    "tiki bob's atomic beach party": {
+      "table": "Tiki Bob's Atomic Beach Party",
+      "competition": "Special When Lit",
+      "period": "9/13/2026 - 9/20/2026",
+      "winner": "Autobott",
+      "date": "2026-09-20"
+    },
+    "spongebob's bikini bottom pinball": {
+      "table": "SpongeBob's Bikini Bottom Pinball",
+      "competition": "Thursday Throwdown",
+      "period": "9/17/2026 - 9/24/2026",
+      "winner": "Autobott",
+      "date": "2026-09-24"
+    },
+    "24": {
+      "table": "24",
+      "competition": "Special When Lit",
+      "period": "9/20/2026 - 9/27/2026",
+      "winner": "Autobott",
+      "date": "2026-09-27"
+    },
+    "dark chaos": {
+      "table": "Dark Chaos",
+      "competition": "Thursday Throwdown",
+      "period": "9/24/2026 - 10/1/2026",
+      "winner": "ED209",
+      "date": "2026-10-01"
+    },
+    "attack from mars": {
+      "table": "Attack from Mars",
+      "competition": "Special When Lit",
+      "period": "9/27/2026 - 10/4/2026",
+      "winner": "shelshlock",
+      "date": "2026-10-04"
     }
   }
 }

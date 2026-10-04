@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T11:38:57.340Z",
+  "generatedAt": "2026-10-04T18:53:09.762Z",
   "sourceAuthors": [
     "vpinworkshop",
     "vpw",
@@ -12,10 +12,11 @@
     "idigstuff",
     "zandysarcade",
     "tastywasps",
-    "rothbauerw"
+    "rothbauerw",
+    "g5k"
   ],
-  "count": 2573,
-  "poolCount": 326,
+  "count": 2579,
+  "poolCount": 331,
   "tables": [
     {
       "tableId": "IMXP7bnaCD",
@@ -5864,7 +5865,7 @@
     },
     {
       "tableId": "9Paf7-CL",
-      "releaseId": "uiw8TLPQ",
+      "releaseId": "ZduqSMANBJ",
       "name": "Attack from Mars",
       "manufacturer": "Bally",
       "year": 1995,
@@ -5876,22 +5877,21 @@
       "mpu": "Williams WPC-95",
       "type": "SS",
       "authors": [
-        "Cyberpez",
-        "Dozer",
-        "ICPjuggla",
-        "HauntFreaks",
-        "ClarkKent",
-        "JPSalas"
+        "G5k",
+        "DJRobX",
+        "Tom Tower",
+        "Fluffhead35",
+        "Tomate"
       ],
       "matchedAuthors": [
-        "HauntFreaks"
+        "G5k"
       ],
       "features": [
-        "MOD",
-        "SSF"
+        "nFozzy",
+        "Fleep"
       ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/9Paf7-CL_b2s_1683469494905.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/9Paf7-CL_table_1653303764125.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/9Paf7-CL_table_1696283984992.webp",
       "ipdbUrl": "https://www.ipdb.org/machine.cgi?id=3781",
       "romId": "afm_113b",
       "romAuthor": "Destruk",
@@ -5919,9 +5919,9 @@
           "url": "https://vpuniverse.com/files/file/18334-attack-from-mars-bally-1995-vpx-video-instruction/"
         }
       ],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=9Paf7-CL&releaseId=uiw8TLPQ",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=9Paf7-CL&fileType=table#uiw8TLPQ",
-      "inPool": false
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=9Paf7-CL&releaseId=ZduqSMANBJ",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=9Paf7-CL&fileType=table#ZduqSMANBJ",
+      "inPool": true
     },
     {
       "tableId": "mQ1jqVKL2X",
@@ -8042,6 +8042,7 @@
         "NailBuster"
       ],
       "matchedAuthors": [
+        "G5k",
         "Bord"
       ],
       "features": [
@@ -11207,7 +11208,7 @@
       ],
       "matchedAuthors": [],
       "features": [
-        "incl. B2S"
+        "incl. PuP"
       ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/n7uv_bjw_b2s_1699884689964.webp",
       "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/378f96b921e17ef35f5048a55ddab9d0_table_1638093698096.webp",
@@ -23140,7 +23141,7 @@
     },
     {
       "tableId": "vT78ph4O",
-      "releaseId": "ifVdLU3h",
+      "releaseId": "uN4crZzX",
       "name": "Demolition Man",
       "manufacturer": "Williams",
       "year": 1994,
@@ -23153,18 +23154,23 @@
       "mpu": "Williams WPC (DCS)",
       "type": "SS",
       "authors": [
-        "Arconovum",
+        "Bigus1",
         "Knorr",
-        "Kiwi"
+        "Kiwi",
+        "Flupper",
+        "Shoopity",
+        "Mfuegemann",
+        "Freneticamnesic",
+        "Toxie",
+        "Gigalula",
+        "ClarkKent"
       ],
       "matchedAuthors": [],
       "features": [
-        "FastFlips",
-        "FSS",
         "MOD"
       ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/JEo0dI18se_1737969790922.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/ifVdLU3h_1709890198259.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/vT78ph4O_table_1649616624273.webp",
       "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=662",
       "romId": "dm_lx4",
       "romAuthor": "Destruk",
@@ -23184,8 +23190,8 @@
           "url": "https://pinballprimer.github.io/demoman_G5bv3.html"
         }
       ],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=vT78ph4O&releaseId=ifVdLU3h",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=vT78ph4O&fileType=table#ifVdLU3h",
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=vT78ph4O&releaseId=uN4crZzX",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=vT78ph4O&fileType=table#uN4crZzX",
       "inPool": false
     },
     {
@@ -24992,6 +24998,7 @@
       ],
       "matchedAuthors": [
         "VPW",
+        "G5k",
         "HauntFreaks"
       ],
       "features": [
@@ -29335,7 +29342,6 @@
       "type": "EM",
       "authors": [
         "PinRich",
-        "Xfl",
         "Teisen",
         "Lolzilla"
       ],
@@ -31027,6 +31033,7 @@
         "Rothbauerw"
       ],
       "matchedAuthors": [
+        "G5k",
         "Rothbauerw"
       ],
       "features": [],
@@ -31124,6 +31131,7 @@
         "Rothbauerw"
       ],
       "matchedAuthors": [
+        "G5k",
         "Rothbauerw"
       ],
       "features": [
@@ -31218,7 +31226,8 @@
         "VPW",
         "Rothbauerw",
         "HauntFreaks",
-        "Bord"
+        "Bord",
+        "G5k"
       ],
       "features": [
         "VR",
@@ -36949,7 +36958,7 @@
         "incl. B2S",
         "nFozzy"
       ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/gqyivYLtpj_1731496801709.webp",
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/CEmbMN1d_1749322933190.webp",
       "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/e7e0307c7de02fdcfb946c47540678d1_table_1638288521229.webp",
       "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=1089",
       "romId": null,
@@ -38905,6 +38914,52 @@
       ],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=8FRYLJJn&releaseId=JxURfn7klC",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=8FRYLJJn&fileType=table#JxURfn7klC",
+      "inPool": true
+    },
+    {
+      "tableId": "FoV04dro_z",
+      "releaseId": "z_eG_4SCop",
+      "name": "Heavy Metal Remastered ",
+      "manufacturer": "Original",
+      "year": 2026,
+      "theme": [],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "Matt Lager (Mlager8)",
+        "VPW",
+        "Apophis",
+        "Tomate",
+        "Flupper",
+        "Mecha Enron",
+        "Burger",
+        "DGrimmReaper",
+        "MerlinRTP"
+      ],
+      "matchedAuthors": [
+        "VPW"
+      ],
+      "features": [
+        "Hybrid",
+        "VR",
+        "incl. nvram",
+        "incl. PuP",
+        "nFozzy",
+        "Fleep",
+        "VLM",
+        "Music",
+        "incl. ROM",
+        "incl. B2S"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/z_eG_4SCop_1790777741577.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/z_eG_4SCop_1790777741577.webp",
+      "ipdbUrl": null,
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=FoV04dro_z&releaseId=z_eG_4SCop",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=FoV04dro_z&fileType=table#z_eG_4SCop",
       "inPool": true
     },
     {
@@ -41852,16 +41907,16 @@
       ],
       "tutorials": [
         {
+          "title": " Indiana Jones: The Pinball Adventure",
+          "url": "https://pinballprimer.github.io/indianajones_G4xZy.html"
+        },
+        {
           "title": "Indiana Jones Pinball Tutorial (1993)",
           "url": "https://www.youtube.com/watch?v=BbV-xPsRcbA&list=PLkySklV5pqq87ZF28ZR8KNCukSR4CTtjv&index=11"
         },
         {
           "title": "Indiana Jones The Pinball Adventure (Williams 1993) - VPX Video Instructions",
           "url": "https://vpuniverse.com/files/file/23977-indiana-jones-the-pinball-adventure-williams-1993-vpx-video-instruction/"
-        },
-        {
-          "title": " Indiana Jones: The Pinball Adventure",
-          "url": "https://pinballprimer.github.io/indianajones_G4xZy.html"
         }
       ],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=lkSumsrF&releaseId=yY_jeCZi",
@@ -44531,7 +44586,7 @@
     },
     {
       "tableId": "wZ9PCF4-",
-      "releaseId": "uVj31Zg4",
+      "releaseId": "qP8N2_9Ykw",
       "name": "Joker",
       "manufacturer": "Gottlieb",
       "year": 1950,
@@ -44543,24 +44598,24 @@
       "mpu": null,
       "type": "EM",
       "authors": [
+        "Shannon",
         "Loserman76",
-        "Pbecker1946",
-        "Itchigo"
+        "Nesta78"
       ],
       "matchedAuthors": [],
       "features": [
-        "incl. B2S",
-        "no ROM"
+        "Hybrid",
+        "VR"
       ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/8fdd7538cb913b6ac2d868bf235a2180_table_1640004065740.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/8fdd7538cb913b6ac2d868bf235a2180_table_1640004065740.webp",
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/qP8N2_9Ykw_1790776932473.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/qP8N2_9Ykw_1790776932473.webp",
       "ipdbUrl": "https://www.ipdb.org/machine.cgi?id=1304",
       "romId": null,
       "romAuthor": null,
       "romOptions": [],
       "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=wZ9PCF4-&releaseId=uVj31Zg4",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=wZ9PCF4-&fileType=table#uVj31Zg4",
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=wZ9PCF4-&releaseId=qP8N2_9Ykw",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=wZ9PCF4-&fileType=table#qP8N2_9Ykw",
       "inPool": false
     },
     {
@@ -52524,6 +52579,35 @@
       "inPool": false
     },
     {
+      "tableId": "UHgXLsR3aO",
+      "releaseId": "GbMwT1o1sf",
+      "name": "Majorettes",
+      "manufacturer": "Gottlieb",
+      "year": 1964,
+      "theme": [],
+      "mpu": null,
+      "type": "EM",
+      "authors": [
+        "JPSalas",
+        "Silversurfer"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "incl. B2S",
+        "no ROM"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/GbMwT1o1sf_1791045046098.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/GbMwT1o1sf_1791045046098.webp",
+      "ipdbUrl": "https://www.ipdb.org/machine.cgi?id=1528",
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=UHgXLsR3aO&releaseId=GbMwT1o1sf",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=UHgXLsR3aO&fileType=table#GbMwT1o1sf",
+      "inPool": false
+    },
+    {
       "tableId": "5r3TFFO-J1",
       "releaseId": "hN5RLwZPdZ",
       "name": "Mandrake",
@@ -54551,6 +54635,43 @@
       "inPool": false
     },
     {
+      "tableId": "AclWEth8Q3",
+      "releaseId": "-RiKAqiXIQ",
+      "name": "Metallica Remastered",
+      "manufacturer": "Original",
+      "year": 2026,
+      "theme": [],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "fAthAwg13",
+        "JPSalas",
+        "Dark",
+        "EBisLit",
+        "Freneticamnesic"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "MOD",
+        "incl. B2S"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/-RiKAqiXIQ_1790016320857.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/-RiKAqiXIQ_1790016320857.webp",
+      "ipdbUrl": null,
+      "romId": "mtl_180",
+      "romAuthor": "fAthAwg13",
+      "romOptions": [
+        {
+          "romId": "mtl_180",
+          "author": "fAthAwg13"
+        }
+      ],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=AclWEth8Q3&releaseId=-RiKAqiXIQ",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=AclWEth8Q3&fileType=table#-RiKAqiXIQ",
+      "inPool": false
+    },
+    {
       "tableId": "FrfsSwGv",
       "releaseId": "JJV0r5tW",
       "name": "Meteor",
@@ -55343,7 +55464,7 @@
     },
     {
       "tableId": "dXfRkYp4",
-      "releaseId": "6dItcjyZ",
+      "releaseId": "G6kCajt2w7",
       "name": "Millionaire",
       "manufacturer": "Williams",
       "year": 1987,
@@ -55354,25 +55475,21 @@
       "mpu": "Williams System 11A",
       "type": "SS",
       "authors": [
+        "Teisen",
         "Goldchicco",
-        "Hmueck",
-        "Movieguru",
-        "Vogliadicane",
-        "Albert",
-        "Iaakki",
-        "Andrei Maraklov",
-        "Arngrim",
-        "Batch",
-        "32assassin",
-        "JPSalas"
+        "Burger",
+        "Wildman",
+        "Hmueck"
       ],
       "matchedAuthors": [],
       "features": [
-        "LUT",
-        "MOD"
+        "Hybrid",
+        "VR",
+        "nFozzy",
+        "Fleep"
       ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/sf1Y7s_hMZ_1767876286398.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/dXfRkYp4_table_1653215352856.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/G6kCajt2w7_1790028928178.webp",
       "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=1597",
       "romId": "milln_l3",
       "romAuthor": "Destruk",
@@ -55388,8 +55505,8 @@
           "url": "https://pinballprimer.github.io/millionaire_G5n38.html"
         }
       ],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=dXfRkYp4&releaseId=6dItcjyZ",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=dXfRkYp4&fileType=table#6dItcjyZ",
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=dXfRkYp4&releaseId=G6kCajt2w7",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=dXfRkYp4&fileType=table#G6kCajt2w7",
       "inPool": false
     },
     {
@@ -58578,7 +58695,8 @@
         "Music",
         "MOD",
         "incl. B2S",
-        "Retheme"
+        "Retheme",
+        "VR"
       ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/3eb98af3cc2eedc6245e1be70f4d72ad_table_1638093698388.webp",
       "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/3eb98af3cc2eedc6245e1be70f4d72ad_table_1638093698388.webp",
@@ -59104,7 +59222,7 @@
     },
     {
       "tableId": "AV8W-O2R",
-      "releaseId": "49P5rcoB1a",
+      "releaseId": "-ontaJuz5C",
       "name": "No Good Gofers",
       "manufacturer": "Williams",
       "year": 1997,
@@ -59115,32 +59233,29 @@
       "mpu": "Williams WPC-95",
       "type": "SS",
       "authors": [
-        "cl4ve",
+        "VPW",
+        "Sixtoe",
+        "Tomate",
+        "Apophis",
+        "Iaakki",
+        "eMBee",
         "DaRdog",
         "DGrimmReaper",
-        "Fidiko",
-        "HauntFreaks",
-        "Burger",
-        "Studlygoorite",
-        "RobbyKingPin",
-        "MachWon",
-        "Bodydump",
-        "Dark",
-        "Bigus1",
-        "Destruk"
+        "VPW Testers"
       ],
       "matchedAuthors": [
-        "HauntFreaks"
+        "VPW",
+        "VPW Testers"
       ],
       "features": [
-        "MOD",
         "Hybrid",
         "VR",
+        "nFozzy",
         "Fleep",
-        "nFozzy"
+        "VLM"
       ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/gJdnoPD8ZC_1767271839828.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/49P5rcoB1a_1767271783912.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/-ontaJuz5C_1789742320965.webp",
       "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=4338",
       "romId": "ngg_13",
       "romAuthor": "Destruk",
@@ -59160,8 +59275,8 @@
           "url": "https://www.youtube.com/watch?v=hU2ZMaMmwnM"
         }
       ],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=AV8W-O2R&releaseId=49P5rcoB1a",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=AV8W-O2R&fileType=table#49P5rcoB1a",
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=AV8W-O2R&releaseId=-ontaJuz5C",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=AV8W-O2R&fileType=table#-ontaJuz5C",
       "inPool": true
     },
     {
@@ -62819,7 +62934,9 @@
         "UncleWilly",
         "Rothbauerw",
         "Sorbeppe",
-        "Burger"
+        "Burger",
+        "DGrimmReaper",
+        "Cliffy"
       ],
       "matchedAuthors": [
         "Rothbauerw"
@@ -62827,7 +62944,9 @@
       "features": [
         "MOD",
         "nFozzy",
-        "Fleep"
+        "Fleep",
+        "Hybrid",
+        "VR"
       ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/GhJ0zj3KWN_1756556625318.webp",
       "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/nYs4bjGep1_1737242520785.webp",
@@ -63318,8 +63437,7 @@
       "mpu": null,
       "type": "EM",
       "authors": [
-        "PinRich",
-        "Xfl"
+        "PinRich"
       ],
       "matchedAuthors": [],
       "features": [
@@ -69749,14 +69867,18 @@
       "authors": [
         "JoeD",
         "JPSalas",
-        "Philip Mationi"
+        "Philip Mationi",
+        "Panasony"
       ],
       "matchedAuthors": [],
       "features": [
         "incl. PuP",
-        "no ROM"
+        "no ROM",
+        "Hybrid",
+        "VR",
+        "incl. B2S"
       ],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/LzlhsG_VED_1787631223048.webp",
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/rrxe6dXc58_1790081538697.webp",
       "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/LzlhsG_VED_1787631223048.webp",
       "ipdbUrl": null,
       "romId": null,
@@ -70258,7 +70380,6 @@
       "mpu": null,
       "type": "EM",
       "authors": [
-        "Xfl",
         "PinRich"
       ],
       "matchedAuthors": [],
@@ -72160,7 +72281,7 @@
       "mpu": null,
       "type": "EM",
       "authors": [
-        "Xfl"
+        "PinRich"
       ],
       "matchedAuthors": [],
       "features": [
@@ -72642,7 +72763,7 @@
     },
     {
       "tableId": "apOC1PNcMf",
-      "releaseId": "hZuUv9R12O",
+      "releaseId": "qzUgwLg8Ce",
       "name": "Shark",
       "manufacturer": "Hankin",
       "year": 1980,
@@ -72654,15 +72775,15 @@
       ],
       "matchedAuthors": [],
       "features": [],
-      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/hZuUv9R12O_1781413410734.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/hZuUv9R12O_1781413410734.webp",
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/qzUgwLg8Ce_1791045391045.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/qzUgwLg8Ce_1791045391045.webp",
       "ipdbUrl": "https://www.ipdb.org/machine.cgi?id=3339",
       "romId": null,
       "romAuthor": null,
       "romOptions": [],
       "tutorials": [],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=apOC1PNcMf&releaseId=hZuUv9R12O",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=apOC1PNcMf&fileType=table#hZuUv9R12O",
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=apOC1PNcMf&releaseId=qzUgwLg8Ce",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=apOC1PNcMf&fileType=table#qzUgwLg8Ce",
       "inPool": false
     },
     {
@@ -73162,6 +73283,43 @@
       ],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=5RaindsR7o&releaseId=16nPFvO252",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=5RaindsR7o&fileType=table#16nPFvO252",
+      "inPool": false
+    },
+    {
+      "tableId": "RkePnFCWZa",
+      "releaseId": "xaeldynU8L",
+      "name": "Shooting The Rapids Deluxe",
+      "manufacturer": "Original",
+      "year": 2026,
+      "theme": [
+        "Native Americans"
+      ],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "Tombg",
+        "Burger",
+        "gman",
+        "Dicentim",
+        "Super Tilted team"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "Hybrid",
+        "VR",
+        "nFozzy",
+        "Fleep",
+        "incl. PuP"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/xaeldynU8L_1789079533063.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/xaeldynU8L_1789079533063.webp",
+      "ipdbUrl": null,
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=RkePnFCWZa&releaseId=xaeldynU8L",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=RkePnFCWZa&fileType=table#xaeldynU8L",
       "inPool": false
     },
     {
@@ -78300,7 +78458,8 @@
         "JPSalas"
       ],
       "matchedAuthors": [
-        "VPW"
+        "VPW",
+        "G5k"
       ],
       "features": [
         "Kids",
@@ -78761,6 +78920,53 @@
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=WaSg-cv96U&releaseId=id5dEbTXcC",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=WaSg-cv96U&fileType=table#id5dEbTXcC",
       "inPool": false
+    },
+    {
+      "tableId": "x_MAfnPT2z",
+      "releaseId": "7NVj9DRY0N",
+      "name": "Star Craft Pinball",
+      "manufacturer": "Original",
+      "year": 2026,
+      "theme": [],
+      "mpu": null,
+      "type": "SS",
+      "authors": [
+        "Cheese3075",
+        "Yacuthulluzan",
+        "Tombg",
+        "gman",
+        "MerlinRTP",
+        "Supergibson",
+        "VPW",
+        "Knorr",
+        "ClarkKent"
+      ],
+      "matchedAuthors": [
+        "VPW"
+      ],
+      "features": [
+        "Retheme",
+        "Hybrid",
+        "VR",
+        "incl. PuP",
+        "nFozzy",
+        "Fleep"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/7NVj9DRY0N_1790603573519.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/7NVj9DRY0N_1790603573519.webp",
+      "ipdbUrl": null,
+      "romId": "startrp2",
+      "romAuthor": "Destruk",
+      "romOptions": [
+        {
+          "romId": "startrp2",
+          "author": "Destruk"
+        }
+      ],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=x_MAfnPT2z&releaseId=7NVj9DRY0N",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=x_MAfnPT2z&fileType=table#7NVj9DRY0N",
+      "inPool": true
     },
     {
       "tableId": "4w_wWrV3",
@@ -83808,6 +84014,42 @@
       "inPool": false
     },
     {
+      "tableId": "XGozMhzKjQ",
+      "releaseId": "WkZLN98e5D",
+      "name": "Svengoolie",
+      "manufacturer": "Original",
+      "year": 2026,
+      "theme": [],
+      "mpu": null,
+      "type": "EM",
+      "authors": [
+        "Bluenmaize",
+        "Itchigo",
+        "JPSalas",
+        "Burger",
+        "studly_do_right",
+        "LoadedWeapon",
+        "Guycharrette"
+      ],
+      "matchedAuthors": [],
+      "features": [
+        "incl. B2S",
+        "Music",
+        "nFozzy",
+        "Fleep"
+      ],
+      "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/WkZLN98e5D_1790203093490.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/WkZLN98e5D_1790203093490.webp",
+      "ipdbUrl": null,
+      "romId": null,
+      "romAuthor": null,
+      "romOptions": [],
+      "tutorials": [],
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=XGozMhzKjQ&releaseId=WkZLN98e5D",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=XGozMhzKjQ&fileType=table#WkZLN98e5D",
+      "inPool": false
+    },
+    {
       "tableId": "8V_gfrDnQt",
       "releaseId": "LpcG45DiQ9",
       "name": "Swamp Thing",
@@ -83944,7 +84186,7 @@
     },
     {
       "tableId": "4FLcO2bR",
-      "releaseId": "WimBSiuZ",
+      "releaseId": "3nt5FkWKKX",
       "name": "Swing-Along",
       "manufacturer": "Gottlieb",
       "year": 1963,
@@ -83955,15 +84197,15 @@
       "mpu": null,
       "type": "EM",
       "authors": [
+        "Halen",
         "JamieP",
+        "Teisen",
         "Leeoneil"
       ],
       "matchedAuthors": [],
-      "features": [
-        "incl. B2S"
-      ],
+      "features": [],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/4FLcO2bR_b2s_1647875023856.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/undefined_table_1641685904972.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/3nt5FkWKKX_1790776740387.webp",
       "ipdbUrl": "https://www.ipdb.org/machine.cgi?id=2484",
       "romId": null,
       "romAuthor": null,
@@ -83974,8 +84216,8 @@
           "url": "https://pinballprimer.github.io/swingalong_G5D9e.html"
         }
       ],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=4FLcO2bR&releaseId=WimBSiuZ",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=4FLcO2bR&fileType=table#WimBSiuZ",
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=4FLcO2bR&releaseId=3nt5FkWKKX",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=4FLcO2bR&fileType=table#3nt5FkWKKX",
       "inPool": false
     },
     {
@@ -84335,6 +84577,7 @@
       ],
       "matchedAuthors": [
         "VPW",
+        "G5k",
         "HauntFreaks"
       ],
       "features": [
@@ -85409,6 +85652,7 @@
         "VPW"
       ],
       "matchedAuthors": [
+        "G5k",
         "VPW"
       ],
       "features": [
@@ -85925,6 +86169,7 @@
         "Iaakki"
       ],
       "matchedAuthors": [
+        "G5k",
         "VPW",
         "TastyWasps"
       ],
@@ -87482,7 +87727,9 @@
         "Dark",
         "LoadedWeapon"
       ],
-      "matchedAuthors": [],
+      "matchedAuthors": [
+        "G5k"
+      ],
       "features": [
         "MOD",
         "nFozzy"
@@ -87506,7 +87753,7 @@
       ],
       "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=Q6mN43lD&releaseId=nIuUXPXNmf",
       "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=Q6mN43lD&fileType=table#nIuUXPXNmf",
-      "inPool": false
+      "inPool": true
     },
     {
       "tableId": "NZpHGj9xwc",
@@ -89043,17 +89290,17 @@
         "Addestratore",
         "Mistermixer",
         "William Hammond",
-        "HiRez00"
+        "HiRez00",
+        "Schlabber34"
       ],
       "matchedAuthors": [
         "iDigStuff"
       ],
       "features": [
+        "Retheme",
         "Music",
-        "MOD",
         "incl. ROM",
-        "incl. Art",
-        "Retheme"
+        "incl. Art"
       ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/WWMoRxq4_b2s_1693307713443.webp",
       "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/6e09e7e733a7c7a9a2e31234ef3237c7_table_1638488152284.webp",
@@ -91694,6 +91941,7 @@
         "Rothbauerw"
       ],
       "matchedAuthors": [
+        "G5k",
         "Bord",
         "Rothbauerw"
       ],
@@ -93958,7 +94206,7 @@
     },
     {
       "tableId": "2h-sVIRx",
-      "releaseId": "FNpyVaUDPJ",
+      "releaseId": "xqWVwIg_iY",
       "name": "Touchdown",
       "manufacturer": "Gottlieb",
       "year": 1984,
@@ -93969,15 +94217,23 @@
       "mpu": "Gottlieb System 80A",
       "type": "SS",
       "authors": [
+        "Burger",
+        "Balater",
         "Bigus1",
-        "Balater"
+        "studly_do_right",
+        "HauntFreaks"
       ],
-      "matchedAuthors": [],
+      "matchedAuthors": [
+        "HauntFreaks"
+      ],
       "features": [
-        "MOD"
+        "Hybrid",
+        "VR",
+        "nFozzy",
+        "Fleep"
       ],
       "b2sImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/OHeA_Dadkd_1734867084114.webp",
-      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/2h-sVIRx_table_1674666993368.webp",
+      "tableImageUrl": "https://virtualpinballspreadsheet.github.io/vps-db/img/xqWVwIg_iY_1789393593752.webp",
       "ipdbUrl": "http://www.ipdb.org/machine.cgi?id=2610",
       "romId": null,
       "romAuthor": null,
@@ -93988,9 +94244,9 @@
           "url": "https://pinballprimer.github.io/touchdown_G4ldW.html"
         }
       ],
-      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=2h-sVIRx&releaseId=FNpyVaUDPJ",
-      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=2h-sVIRx&fileType=table#FNpyVaUDPJ",
-      "inPool": false
+      "tournamentHelperUrl": "https://vpinhub.github.io/tournamenthelper/?tableId=2h-sVIRx&releaseId=xqWVwIg_iY",
+      "iscoredTag": "https://virtualpinballspreadsheet.github.io/?game=2h-sVIRx&fileType=table#xqWVwIg_iY",
+      "inPool": true
     },
     {
       "tableId": "R_kckysL",
