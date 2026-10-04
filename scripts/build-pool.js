@@ -34,6 +34,7 @@ const TARGET_AUTHORS = [
     'zandysarcade',
     'tastywasps',
     'rothbauerw',
+    'g5k',
 ];
 
 function matchesTargetAuthor(author) {
